@@ -1,0 +1,7 @@
+/*global Ti */
+if (Ti.Platform.osname=='android') {
+	var service = Ti.Android.currentService;
+	var intent = service.getIntent();
+	Ti.API.info(' (instance ' + service.serviceInstanceId + ')');
+} else Ti.API.info('Started background iOS service');
+Ti.App.fireEvent('app:startRecordAccelerometer');

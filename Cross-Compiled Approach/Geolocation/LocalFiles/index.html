@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Geolocation Tester MoSync</title>
+        <script type="text/javascript" src="js/wormhole.js" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        // Wormhole is ready
+        //
+        function onDeviceReady() {
+        	alert("here");
+            navigator.geolocation.getCurrentPosition(onSuccess, onError);
+        }
+
+        // onSuccess Geolocation
+        //
+        function onSuccess(position) {
+            //var element = document.getElementById('geolocation');
+            //element.innerHTML = 'Latitude: ' + position.coords.latitude + '<br />' +
+              //                  'Longitude: ' + position.coords.longitude + '<br />' +
+                //                'Altitude: ' + position.coords.altitude + '<br />' +
+                  //              'Accuracy: ' + position.coords.accuracy + '<br />' +
+                    //            'Altitude Accuracy: '  + position.coords.altitudeAccuracy + '<br />' +
+                      //          'Heading: ' + position.coords.heading + '<br />' +
+                        //        'Speed: ' + position.coords.speed + '<br />' +
+                          //      'Timestamp: ' + new Date(position.timestamp) + '<br />';
+        }
+
+        // onError Callback receives a PositionError object
+        //
+        function onError(error) {
+            alert('code: ' + error.code + '\n' +
+                'message: ' + error.message + '\n');
+        }
+
+        </script>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Geolocation Test</h1>
+            <p>Latitude: <span id="valueLatitude">0.0</span></p>
+            <p>Longitude: <span id="valueLongitude">0.0</span></p>
+            <input type="checkbox" name="printData" id="printData" /><label for="printData">Print data</label>
+            <button type="button" id="buttonStart" onclick="startStopRecordLocation();">Start record data</button>
+            <select name="selectInterval" id="selectInterval">
+                <option value="60">60ms</option>
+                <option value="150">150ms</option>
+                <option value="250">250ms</option>
+                <option value="500">500ms</option>
+            </select>
+            <p>Error: <span id="error"></span></p>
+        </div>
+        
+    </body>
+</html>

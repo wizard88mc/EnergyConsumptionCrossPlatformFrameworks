@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accelerometer tester</title>
+	<script src="js/utils.js"></script>
+	<script src="js/accelerometer.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body>
+	<h1>Accelerometer Test</h1>
+	<button id="buttonStartRecording" type="button" onclick="startOrStopRecordingAccelerometer();">Start record data</button><br />
+	<input type="checkbox" name="printData" id="printData" onclick="changeCheckboxValue();" /><label for="printData">Print data</label><br />
+	<input type="checkbox" name="printInterval" id="printInterval" onclick="changeCheckboxValue();" /><label for="printInterval">Print time</label>
+	<p>Acceleration X: <span id="xAcceleration">0.0</span></p>
+	<p>Acceleration Y: <span id="yAcceleration">0.0</span></p>
+	<p>Acceleration Z: <span id="zAcceleration">0.0</span></p>
+	<p>Delta time: <span id="intervalAcceleration">0.0</span></p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Location tester</title>
+	<script src="js/utils.js"></script>
+	<script src="js/location.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body>
+	<h1>Geolocation Test</h1>
+	<button type="button" onclick="startOrStopRecordingLocation();" >Start record data</button><br />
+	<input type="checkbox" name="printData" id="printData" onclick="changeCheckboxValue();" /><label for="printData">Print data</label><br />
+	<p>Latitude: <span id="latitudeLocation">0</span></p>
+	<p>Longitude: <span id="longitudeLocation">0</span></p>
+	<script>
+		navigator.geolocation.watchPosition(
+      function(position) {
+        console.log('getCurrentPosition success - request ' + id);
+        console.log(position);
+        //display('<div>' + id + ' (received: ' + getTime() + ') (timestamp: ' + formatTime(new Date(position.timestamp)) + ') success</div>');
+      },
+      function(error) {
+        console.log('getCurrentPosition error - request ' + id);
+        console.log(error);
+        //display('<div>' + id + ' ' + getTime() + ' ' + error.message + '</div>');
+    
+      },
+      {
+        timeout: 100000000000,
+        maximumAge: Infinity,
+        enableHighAccuracy: true
+      }
+    );
+	</script>
+</body>
+</html>

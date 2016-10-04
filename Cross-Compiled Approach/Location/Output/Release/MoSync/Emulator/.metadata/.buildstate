@@ -1,0 +1,50 @@
+rebuild-needed = false
+variant = MoSync/Emulator Release 
+success = true
+timestamp = 1403214438489
+output-main = /Users/matteo/Developer/MoSync/Location/Output/Release/MoSync/Emulator/program.comb
+
+[files]
+.settings/org.eclipse.core.resources.prefs = 1403212790000
+.mosyncproject.local = 1403212790000
+loc.cpp = 1403213980000
+.mosyncproject = 1403212790000
+workfile.rb = 1403212790000
+.cproject = 1403212790000
+.project = 1403212790000
+
+[dependencies]
+/Location/Output/Release/MoSync/Emulator/loc.s = /Location/Applications/MoSync/include/maapi_defs.h, /Location/Applications/MoSync/include/MAUtil/ListenerSet.h, /Location/Applications/MoSync/include/maassert.h, /Location/Applications/MoSync/include/mastring.h, /Location/Applications/MoSync/include/maarg.h, /Location/Applications/MoSync/include/maapi.h, /Location/Applications/MoSync/include/ma.h, /Location/Applications/MoSync/include/MAUtil/Vector.h, /Location/Applications/MoSync/include/mactype.h, /Location/Applications/MoSync/include/conprint.h, /Location/Applications/MoSync/include/mavsprintf.h, /Location/Applications/MoSync/include/MAUtil/Moblet.h, /Location/Applications/MoSync/include/MAUtil/Environment.h, /Location/loc.cpp
+/Location/loc.cpp = /Location/Output/Release/MoSync/Emulator/loc.s
+
+[build-properties]
+build.prefs:extra.link.sw = 
+build.prefs:ignore.default.library.paths/Release = true
+build.prefs:ignore.default.libraries/Debug = true
+build.prefs:additional.library.paths/Release = %mosync-home%/lib/pipe
+build.prefs:extra.res.sw/Release = 
+build.prefs:ignore.default.libraries/Release = true
+build.prefs:ignore.default.include.paths/Debug = true
+build.prefs:extra.res.sw = 
+build.prefs:extra.link.sw/Release = 
+build.prefs:additional.library.paths/Debug = %mosync-home%/lib/pipe
+build.prefs:additional.include.paths/Release = %mosync-home%/include
+build.prefs:additional.include.paths/Debug = %mosync-home%/include
+build.prefs:app.vendor = MoSync AB
+build.prefs:additional.libraries = mastd.lib, mautil.lib
+build.prefs:additional.library.paths = %mosync-home%/lib/pipe
+build.prefs:ignore.default.library.paths/Debug = true
+dependency.strategy = 0
+build.prefs:extra.res.sw/Debug = 
+build.prefs:additional.include.paths = %mosync-home%/include
+build.prefs:ignore.default.library.paths = true
+build.prefs:additional.libraries/Debug = mastdD.lib, mautilD.lib
+build.prefs:ignore.default.include.paths = true
+build.prefs:ignore.default.libraries = true
+build.prefs:extra.link.sw/Debug = 
+build.prefs:ignore.default.include.paths/Release = true
+build.prefs:additional.libraries/Release = mastd.lib, mautil.lib
+build.prefs:project.type = 
+build.prefs:gcc.warnings = 0
+build.prefs:app.permissions = Location Location/Coarse Location/Fine
+

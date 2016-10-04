@@ -1,0 +1,152 @@
+var lastTimestamp = null;
+var lastTimestampValue = 0;
+
+function accelerometer(_args) {
+	var win = Titanium.UI.createWindow({
+		title:_args.title,
+		backgroundColor: "#000",
+		fullscreen: true,
+		navBarHidden: true,
+		tabBarHidden: true
+	});
+	
+	var accelerometerAdded = false;
+	
+	var title = Titanium.UI.createLabel({
+		text: 'Accelerometer Test',
+		top: 10,
+		left: 10,
+		font:{fontSize: '15px'},
+		color: '#FFF',
+		width: 300, 
+		height: 'auto'
+	});
+	win.add(title);
+	
+	var x = Titanium.UI.createLabel({
+		text:'Acceleration X: ',
+		top:30,
+		left:10,
+		font:{fontSize: '15px'},
+		color:'#FFF',
+		width:300,
+		height:'auto'
+	});
+	win.add(x);
+	
+	var valueX = Titanium.UI.createLabel({
+		text:'0.0',
+		top:30,
+		left:150,
+		font:{fontSize: '15px'},
+		color:'#FFF',
+		width:300,
+		height:'auto'
+	});
+	win.add(valueX);
+	
+	var y = Titanium.UI.createLabel({
+		text:'Acceleration Y: ',
+		top:50,
+		left:10,
+		font:{fontSize:'15px'},
+		color:'#FFF',
+		width:300,
+		height:'auto'
+	});
+	win.add(y);
+	
+	var valueY = Titanium.UI.createLabel({
+		text:'0.0',
+		top:50,
+		left:150,
+		font:{fontSize: '15px'},
+		color:'#FFF',
+		width:300,
+		height:'auto'
+	});
+	win.add(valueY);
+	
+	var z = Titanium.UI.createLabel({
+		text:'Acceleration Z: ',
+		top:70,
+		left:10,
+		font:{fontSize:'15px'},
+		color:'#FFF',
+		width:300,
+		height:'auto'
+	});
+	win.add(z);
+	
+	var valueZ = Titanium.UI.createLabel({
+		text:'0.0',
+		top:70,
+		left:150,
+		font:{fontSize: '15px'},
+		color:'#FFF',
+		width:300,
+		height:'auto'
+	});
+	win.add(valueZ);
+	
+	var ts = Titanium.UI.createLabel({
+		text:'Delta time: 0.0',
+		top:90,
+		left:10,
+		font:{fontSize:'15px'},
+		color:'#FFF',
+		width:300,
+		height:'auto'
+	});
+	win.add(ts);
+	
+	var accelerometerCallback = function(e) {
+		//var now = new Date();
+		//if (lastTimestamp != null) {
+			//ts.text = 'Delta time: ' + Number(now.getTime() - lastTimestamp.getTime()).toFixed();
+			//ts.text = 'Delta time: ' + Number((e.timestamp - lastTimestampValue)).toFixed(); 
+		//}
+		//lastTimestamp = now;
+		//lastTimestampValue = e.timestamp;
+		valueX.text = /*'Acceleration X: ' + */Number(e.x).toFixed(5);
+		valueY.text = /*'Acceleration Y:' + */Number(e.y).toFixed(5);
+		valueZ.text = /*'Acceleration Z:' + */Number(e.z).toFixed(5);
+	};
+	
+	Ti.Accelerometer.addEventListener('update', accelerometerCallback);
+	accelerometerAdded = true;
+	
+	if (Titanium.Platform.name == 'iPhone OS' && Titanium.Platform.model == 'Simulator')
+	{
+		var notice = Titanium.UI.createLabel({
+			bottom:50,
+			font:{fontSize:18},
+			color:'#900',
+			width:'auto',
+			text:'Note: Accelerometer does not work in simulator',
+			textAlign:'center'
+		});
+		win.add(notice);
+	}
+	
+	if (Titanium.Platform.name === 'android')
+	{
+		win.addEventListener('open', function(e) {
+			win.activity.addEventListener('pause', function(e) {
+				if (accelerometerAdded) {
+					Ti.API.info("removing accelerometer callback on pause");
+					Ti.Accelerometer.removeEventListener('update', accelerometerCallback);
+				}
+			});
+			win.activity.addEventListener('resume', function(e) {
+				if (accelerometerAdded) {
+					Ti.API.info("adding accelerometer callback on resume");
+					Ti.Accelerometer.addEventListener('update', accelerometerCallback);
+				}
+			});
+		});
+	}
+	return win;
+};
+
+module.exports = accelerometer;

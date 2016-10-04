@@ -1,0 +1,48 @@
+rebuild-needed = false
+variant = iOS/iPhone Release 
+success = true
+timestamp = 1407234556386
+output-main = /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app
+
+[files]
+.settings/org.eclipse.wst.jsdt.ui.superType.container = 1404947767000
+main.cpp = 1404947767000
+.build = 1404947767000
+LocalFiles/index.html = 1404947927000
+Resources/Resources.lst = 1404947767000
+.project = 1404947767000
+LocalFiles/style.css = 1404947933000
+.settings/org.eclipse.core.resources.prefs = 1404947767000
+.mosyncproject.local = 1407234150000
+Resources/beep.wav = 1404947767000
+.mosyncproject = 1407234150000
+LocalFiles/js/index.js = 1404947985000
+LocalFiles/js/wormhole.js = 1404947767000
+.cproject = 1404947767000
+.settings/org.eclipse.wst.jsdt.ui.superType.name = 1404947767000
+Resources/LocalFiles.bin = 1407234556000
+
+[dependencies]
+/CameraHTML5/Output/Release/iOS/iPhone/resources = /CameraHTML5/Resources/LocalFiles.bin, /CameraHTML5/Resources/beep.wav
+/CameraHTML5/Resources/Resources.lst = /CameraHTML5/Output/Release/iOS/iPhone/resources
+/CameraHTML5/Resources/LocalFiles.bin = /CameraHTML5/LocalFiles
+/CameraHTML5/Output/Release/iOS/iPhone/main.s = /CameraHTML5/Applications/MoSync/include/maapi.h, /CameraHTML5/Applications/MoSync/include/limits.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Encoder.h, /CameraHTML5/Applications/MoSync/include/NativeUI/WebView.h, /CameraHTML5/Applications/MoSync/include/Wormhole/CustomMoblet.h, /CameraHTML5/Applications/MoSync/include/NativeUI/WidgetUtil.h, /CameraHTML5/Applications/MoSync/include/Notification/PushNotificationListener.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/JSNativeUI/NativeUIMessageHandler.h, /CameraHTML5/Applications/MoSync/include/kazlib/hash.h, /CameraHTML5/Applications/MoSync/include/MAUtil/HashMap.h, /CameraHTML5/Applications/MoSync/include/Wormhole/MessageStream.h, /CameraHTML5/Applications/MoSync/include/Wormhole/MessageProtocol.h, /CameraHTML5/Applications/MoSync/include/maheap.h, /CameraHTML5/Applications/MoSync/include/MAUtil/HashMap_impl.h, /CameraHTML5/Applications/MoSync/include/yajl/YAJLDom.h, /CameraHTML5/Applications/MoSync/include/ma.h, /CameraHTML5/Applications/MoSync/include/maassert.h, /CameraHTML5/Applications/MoSync/include/MAUtil/collection_common.h, /CameraHTML5/Applications/MoSync/include/kazlib/dict.h, /CameraHTML5/Applications/MoSync/include/conprint.h, /CameraHTML5/Applications/MoSync/include/MAUtil/HashDict_impl.h, /CameraHTML5/Applications/MoSync/include/MAUtil/Vector.h, /CameraHTML5/Applications/MoSync/include/MAUtil/Moblet.h, /CameraHTML5/Applications/MoSync/include/MAUtil/Dictionary.h, /CameraHTML5/Applications/MoSync/include/MAUtil/ListenerSet.h, /CameraHTML5/Output/Release/iOS/iPhone/MAHeaders.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/W3C/SensorManager.h, /CameraHTML5/Applications/MoSync/include/Wormhole/MessageHandler.h, /CameraHTML5/Applications/MoSync/include/MAUtil/Dictionary_impl.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapFile.h, /CameraHTML5/Applications/MoSync/include/mastring.h, /CameraHTML5/Applications/MoSync/include/Wormhole/MessageStreamJSON.h, /CameraHTML5/Applications/MoSync/include/MAUtil/Map.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/JSONMessage.h, /CameraHTML5/Applications/MoSync/include/mactype.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/Notification/TCPConnection.h, /CameraHTML5/Applications/MoSync/include/Wormhole/WebViewMessage.h, /CameraHTML5/Applications/MoSync/include/IX_WIDGET.h, /CameraHTML5/Applications/MoSync/include/MAUtil/Connection.h, /CameraHTML5/Applications/MoSync/include/MAUtil/Downloader.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/JSNativeUI/ResourceMessageHandler.h, /CameraHTML5/Applications/MoSync/include/Wormhole/HybridMoblet.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapMessageHandler.h, /CameraHTML5/Applications/MoSync/include/mavsprintf.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapCapture.h, /CameraHTML5/Applications/MoSync/include/maarg.h, /CameraHTML5/Applications/MoSync/include/MAUtil/HashDict.h, /CameraHTML5/Applications/MoSync/include/MAUtil/String.h, /CameraHTML5/Applications/MoSync/include/MAUtil/RefCounted.h, /CameraHTML5/Applications/MoSync/include/maapi_defs.h, /CameraHTML5/main.cpp, /CameraHTML5/Applications/MoSync/include/NativeUI/Screen.h, /CameraHTML5/Applications/MoSync/include/MAUtil/Environment.h, /CameraHTML5/Applications/MoSync/include/NativeUI/Widget.h, /CameraHTML5/Applications/MoSync/include/Wormhole/FileUtil.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapSensors.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/Orientation/OrientationMessageHandler.h, /CameraHTML5/Applications/MoSync/include/Wormhole/FunTable.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapCamera.h, /CameraHTML5/Applications/MoSync/include/Wormhole/WebAppMoblet.h, /CameraHTML5/Applications/MoSync/include/Wormhole/Libs/Notification/PushNotificationManager.h, /CameraHTML5/Applications/MoSync/include/MAUtil/util.h
+/CameraHTML5/Output/Release/iOS/iPhone/MAHeaders.h = /CameraHTML5/Resources/Resources.lst
+/CameraHTML5/main.cpp = /CameraHTML5/Output/Release/iOS/iPhone/main.s
+
+[build-properties]
+template.id = project.wormhole.web
+com.mobilesorcery.sdk.html5.support = true
+build.prefs:additional.libraries = MAUtil.lib, NativeUI.lib, MAFS.lib, Wormhole.lib, yajl.lib, Notification.lib
+build.prefs:gcc.warnings/Release = 10
+build.prefs:gcc.warnings/Debug = 10
+privileged.access.token = EA465663C22CCBB4097CFD21664A847F
+build.prefs:memory.heap/Release = 3072
+build.prefs:memory.heap/Debug = 3072
+build.prefs:additional.libraries/Debug = MAUtilD.lib, NativeUID.lib, MAFSD.lib, WormholeD.lib, yajlD.lib, NotificationD.lib
+build.prefs:memory.stack/Release = 512
+profile.mgr.type = 0
+build.prefs:memory.stack/Debug = 512
+build.prefs:memory.data/Debug = 4096
+build.prefs:memory.data/Release = 4096
+

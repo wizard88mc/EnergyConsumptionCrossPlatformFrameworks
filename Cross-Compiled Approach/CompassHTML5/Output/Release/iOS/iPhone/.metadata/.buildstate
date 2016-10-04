@@ -1,0 +1,48 @@
+rebuild-needed = false
+variant = iOS/iPhone Release 
+success = true
+timestamp = 1407145784397
+output-main = /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app
+
+[files]
+.settings/org.eclipse.wst.jsdt.ui.superType.container = 1404978495000
+main.cpp = 1404978495000
+.build = 1404978495000
+LocalFiles/index.html = 1407144320000
+Resources/Resources.lst = 1404978495000
+.project = 1404978495000
+LocalFiles/style.css = 1404978610000
+.settings/org.eclipse.core.resources.prefs = 1404978495000
+.mosyncproject.local = 1407144393000
+Resources/beep.wav = 1404978495000
+.mosyncproject = 1407144393000
+LocalFiles/js/index.js = 1407145743000
+LocalFiles/js/wormhole.js = 1404978495000
+.cproject = 1404978495000
+.settings/org.eclipse.wst.jsdt.ui.superType.name = 1404978495000
+Resources/LocalFiles.bin = 1407145784000
+
+[dependencies]
+/CompassHTML5/Output/Release/iOS/iPhone/resources = /CompassHTML5/Resources/LocalFiles.bin, /CompassHTML5/Resources/beep.wav
+/CompassHTML5/Resources/LocalFiles.bin = /CompassHTML5/LocalFiles
+/CompassHTML5/Resources/Resources.lst = /CompassHTML5/Output/Release/iOS/iPhone/resources
+/CompassHTML5/Output/Release/iOS/iPhone/MAHeaders.h = /CompassHTML5/Resources/Resources.lst
+/CompassHTML5/main.cpp = /CompassHTML5/Output/Release/iOS/iPhone/main.s
+/CompassHTML5/Output/Release/iOS/iPhone/main.s = /CompassHTML5/Applications/MoSync/include/Wormhole/CustomMoblet.h, /CompassHTML5/Applications/MoSync/include/kazlib/dict.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/Notification/TCPConnection.h, /CompassHTML5/Applications/MoSync/include/Wormhole/MessageProtocol.h, /CompassHTML5/Applications/MoSync/include/NativeUI/WebView.h, /CompassHTML5/Applications/MoSync/include/maheap.h, /CompassHTML5/Applications/MoSync/include/maapi_defs.h, /CompassHTML5/Applications/MoSync/include/Wormhole/FileUtil.h, /CompassHTML5/Applications/MoSync/include/mavsprintf.h, /CompassHTML5/Applications/MoSync/include/kazlib/hash.h, /CompassHTML5/Applications/MoSync/include/MAUtil/HashDict.h, /CompassHTML5/Applications/MoSync/include/mastring.h, /CompassHTML5/Applications/MoSync/include/maapi.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/W3C/SensorManager.h, /CompassHTML5/Output/Release/iOS/iPhone/MAHeaders.h, /CompassHTML5/Applications/MoSync/include/Wormhole/WebAppMoblet.h, /CompassHTML5/Applications/MoSync/include/MAUtil/util.h, /CompassHTML5/Applications/MoSync/include/mactype.h, /CompassHTML5/Applications/MoSync/include/Wormhole/WebViewMessage.h, /CompassHTML5/Applications/MoSync/include/yajl/YAJLDom.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/JSONMessage.h, /CompassHTML5/Applications/MoSync/include/MAUtil/HashDict_impl.h, /CompassHTML5/Applications/MoSync/include/Wormhole/HybridMoblet.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/Orientation/OrientationMessageHandler.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/JSNativeUI/NativeUIMessageHandler.h, /CompassHTML5/Applications/MoSync/include/MAUtil/Moblet.h, /CompassHTML5/Applications/MoSync/include/MAUtil/Environment.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapCapture.h, /CompassHTML5/main.cpp, /CompassHTML5/Applications/MoSync/include/MAUtil/collection_common.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/Notification/PushNotificationManager.h, /CompassHTML5/Applications/MoSync/include/limits.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapFile.h, /CompassHTML5/Applications/MoSync/include/MAUtil/Dictionary.h, /CompassHTML5/Applications/MoSync/include/MAUtil/ListenerSet.h, /CompassHTML5/Applications/MoSync/include/MAUtil/Connection.h, /CompassHTML5/Applications/MoSync/include/NativeUI/Widget.h, /CompassHTML5/Applications/MoSync/include/maassert.h, /CompassHTML5/Applications/MoSync/include/maarg.h, /CompassHTML5/Applications/MoSync/include/ma.h, /CompassHTML5/Applications/MoSync/include/NativeUI/Screen.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapCamera.h, /CompassHTML5/Applications/MoSync/include/Notification/PushNotificationListener.h, /CompassHTML5/Applications/MoSync/include/NativeUI/WidgetUtil.h, /CompassHTML5/Applications/MoSync/include/Wormhole/MessageStream.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Encoder.h, /CompassHTML5/Applications/MoSync/include/MAUtil/String.h, /CompassHTML5/Applications/MoSync/include/MAUtil/Dictionary_impl.h, /CompassHTML5/Applications/MoSync/include/MAUtil/Downloader.h, /CompassHTML5/Applications/MoSync/include/MAUtil/Vector.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapMessageHandler.h, /CompassHTML5/Applications/MoSync/include/conprint.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapSensors.h, /CompassHTML5/Applications/MoSync/include/MAUtil/Map.h, /CompassHTML5/Applications/MoSync/include/Wormhole/MessageHandler.h, /CompassHTML5/Applications/MoSync/include/MAUtil/HashMap_impl.h, /CompassHTML5/Applications/MoSync/include/Wormhole/MessageStreamJSON.h, /CompassHTML5/Applications/MoSync/include/Wormhole/FunTable.h, /CompassHTML5/Applications/MoSync/include/MAUtil/RefCounted.h, /CompassHTML5/Applications/MoSync/include/MAUtil/HashMap.h, /CompassHTML5/Applications/MoSync/include/IX_WIDGET.h, /CompassHTML5/Applications/MoSync/include/Wormhole/Libs/JSNativeUI/ResourceMessageHandler.h
+
+[build-properties]
+template.id = project.wormhole.web
+com.mobilesorcery.sdk.html5.support = true
+build.prefs:additional.libraries = MAUtil.lib, NativeUI.lib, MAFS.lib, Wormhole.lib, yajl.lib, Notification.lib
+build.prefs:gcc.warnings/Release = 10
+build.prefs:gcc.warnings/Debug = 10
+privileged.access.token = 315420811417B71A637C56421EDD984E
+build.prefs:memory.heap/Release = 3072
+build.prefs:memory.heap/Debug = 3072
+build.prefs:additional.libraries/Debug = MAUtilD.lib, NativeUID.lib, MAFSD.lib, WormholeD.lib, yajlD.lib, NotificationD.lib
+build.prefs:memory.stack/Release = 512
+profile.mgr.type = 0
+build.prefs:memory.stack/Debug = 512
+build.prefs:memory.data/Debug = 4096
+build.prefs:memory.data/Release = 4096
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rotation tester</title>
+	<script src="js/utils.js"></script>
+	<script src="js/orientation.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body>
+	<h1>Rotation Test</h1>
+	<button type="button" onclick="startOrStopRecordingGyroscope();">Start record data</button><br />
+	<input type="checkbox" name="printData" id="printData" onclick="changeCheckboxValue();" /><label for="printData">Print data</label><br />
+	<input type="checkbox" name="printInterval" id="printInterval" onclick="changeCheckboxValue();" /><label for="printInterval">Print time</label>
+	<p>Rotation X: <span id="alphaGyroscope">0.0</span></p>
+	<p>Rotation Y: <span id="betaGyroscope">0.0</span></p>
+	<p>Rotation Z: <span id="gammaGyroscope">0.0</span></p>
+	<p>Delta time: <span id="intervalGyroscope">0</span></p>
+</body>
+</html>

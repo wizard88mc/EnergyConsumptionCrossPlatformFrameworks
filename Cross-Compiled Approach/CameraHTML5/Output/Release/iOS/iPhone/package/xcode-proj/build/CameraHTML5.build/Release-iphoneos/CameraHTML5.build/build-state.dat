@@ -1,0 +1,630 @@
+TCameraHTML5
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Info.plist /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CameraHTML5.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/CameraHTML5.app/ResourceRules.plist
+cCpResource resources build/Release-iphoneos/CameraHTML5.app/resources
+cCpResource data_section.bin build/Release-iphoneos/CameraHTML5.app/data_section.bin
+cCopyPNGFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon-72.png Icon-72.png
+cCopyPNGFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon.png Icon.png
+cCopyPNGFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon@2x.png Icon@2x.png
+cCopyPNGFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Default-568h@2x.png Default-568h@2x.png
+cProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-bkrvnugesotaoaclosxxasdpawzr/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gkmjndwlqqhtwcahdmjrenoablkk/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-hbdjzdplnekjmbeijqdnsstsqxoa/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/main.o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/rebuild.build.o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncViewController.o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/CameraHTML5 normal armv7
+cGenerateDSYMFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app.dSYM /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/CameraHTML5
+cProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/embedded.mobileprovision
+cTouch /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5.xcent
+cCodeSign /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c0000000053B122E70000000000000094
+t1404117735
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c0000000053B122E70000000000000096
+t1404117735
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053B122E7000000000000036B
+t1404117735
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B122E8000000000000019E
+t1404117736
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000053B122EA0000000000632990
+t1404117738
+s6498704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000053B122E90000000000225DF0
+t1404117737
+s2252272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000053B122EC0000000000CF7800
+t1404117740
+s13596672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053B122EB00000000004D7BC0
+t1404117739
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000053B122EB0000000000152370
+t1404117739
+s1385328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000053B122EC00000000002CB700
+t1404117740
+s2930432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+c0000000053B122EC000000000027C770
+t1404117740
+s2606960
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000053B122EC000000000006DCD0
+t1404117740
+s449744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+c0000000053B122ED0000000000441E80
+t1404117741
+s4464256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053B122EE0000000000A90C10
+t1404117742
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c0000000053B122EE00000000003C0F90
+t1404117742
+s3936144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000053B122EF0000000000ABDE50
+t1404117743
+s11263568
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c0000000053B122EE00000000003D1D20
+t1404117742
+s4005152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000053B122EE0000000000210E90
+t1404117742
+s2166416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000053B122EF00000000000417E0
+t1404117743
+s268256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053B122F00000000000649DB0
+t1404117744
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c0000000053B122F00000000000099D80
+t1404117744
+s630144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000053B122F000000000001A2B00
+t1404117744
+s1714944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053B122F90000000002759920
+t1404117753
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+c0000000053B122ED0000000000127B00
+t1404117741
+s1211136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libsqlite3.dylib
+c0000000053B123050000000000218030
+t1404117765
+s2195504
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CameraHTML5.plist
+c0000000053E0B2040000000000000609
+t1407234564
+s1545
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+c0000000053E0B2040000000000001820
+t1407234564
+s6176
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm
+c0000000053E0B2040000000000001205
+t1407234564
+s4613
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp
+c0000000053E0B20400000000001CE25B
+t1407234564
+s1892955
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Default-568h@2x.png
+c0000000053E0B20400000000000048A2
+t1407234564
+s18594
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon-72.png
+c0000000053E0B208000000000000090A
+t1407234568
+s2314
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon.png
+c0000000053E0B2060000000000000719
+t1407234566
+s1817
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon@2x.png
+c0000000053E0B2090000000000000D3E
+t1407234569
+s3390
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch
+c0000000053E0B2040000000000000321
+t1407234564
+s801
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5.xcent
+t1407234608
+s519
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/CameraHTML5.LinkFileList
+c0000000053E0B20B00000000000002E2
+t1407234571
+s738
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o
+t1407234573
+s61664
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncViewController.o
+t1407234573
+s41120
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/main.o
+t1407234573
+s4640
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/rebuild.build.o
+t1407234607
+s2169412
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app
+t1407234608
+s442
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app.dSYM
+t2
+s0
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/CameraHTML5
+t1407234607
+s1187060
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Default-568h@2x.png
+t1407234571
+s7014
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon-72.png
+t1407234571
+s2756
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon.png
+t1407234571
+s2027
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon@2x.png
+t1407234571
+s3803
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Info.plist
+t1407234571
+s1268
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/PkgInfo
+t1407234571
+s8
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/ResourceRules.plist
+t1407234571
+s150
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/data_section.bin
+t1407234571
+s36584
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/embedded.mobileprovision
+t1407234608
+s7733
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/resources
+t1407234571
+s376205
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/data_section.bin
+c0000000053E0B2040000000000008EE8
+t1407234564
+s36584
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/libs/Release-iphonesimulator/libMoSyncLib.a
+c0000000053E0B20400000000005BF368
+t1407234564
+s6026088
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m
+c0000000053E0B20400000000000003D7
+t1407234564
+s983
+
+N/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/resources
+c0000000053E0B204000000000005BD8D
+t1407234564
+s376205
+
+N/Users/matteo/Library/MobileDevice/Provisioning Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision
+c0000000053ABD3AC0000000000001E35
+t1403769772
+s7733
+
+N/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-bkrvnugesotaoaclosxxasdpawzr/MoSync_Prefix.pch.pch
+t1407234572
+s5298488
+
+N/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gkmjndwlqqhtwcahdmjrenoablkk/MoSync_Prefix.pch.pch
+t1407234572
+s6215956
+
+N/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-hbdjzdplnekjmbeijqdnsstsqxoa/MoSync_Prefix.pch.pch
+t1407234571
+s92992
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbaf7348be990b941^3751ab8be990b941^---0#1#1#--18"Check dependencies36"5E2860D9-D599-4B9F-B0FA-9624FF87D03E-
+
+CCodeSign /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app
+s428927408.409582
+e428927408.616035
+r1
+xCodeSign
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"CodeSign build/Release-iphoneos/CameraHTML5.app47"CodeSign build/Release-iphoneos/CameraHTML5.appc7f468b0e990b941^66c09db0e990b941^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/0000000000000000^1174"CodeSign build/Release-iphoneos/CameraHTML5.app    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Matteo Ciman (RK7S4F59K7)" and provisioning profile "PlayWithEyesNew" (317E7F51-FBCC-40FC-B573-7C60F0DECF20)    /usr/bin/codesign --force --sign 16E07B13A74556031B5B4C44EE94F963BCC289B2 --resource-rules=/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/ResourceRules.plist --entitlements /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5.xcent /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app36"EA410997-4B4E-4286-B3FF-D62B6C4A7E24-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CCompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428927372.828624
+e428927373.497067
+r1
+xCompileC
+xbuild/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.h
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm208"CompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler2251d48ce990b941^823c7f8de990b941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm0000000000000000^4027"CompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gkmjndwlqqhtwcahdmjrenoablkk/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.d --serialize-diagnostics /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.dia -c /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm -o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o36"3780B7E9-C732-4138-BC11-FC7B05FD1CBE-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CCompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncViewController.o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428927372.830763
+e428927373.498555
+r1
+xCompileC
+xbuild/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncViewController.o
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm214"CompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncViewController.o Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler7fdad48ce990b941^caa37f8de990b941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm0000000000000000^4045"CompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncViewController.o Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gkmjndwlqqhtwcahdmjrenoablkk/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncViewController.d --serialize-diagnostics /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncViewController.dia -c /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm -o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncViewController.o36"341FFCD9-E416-42B0-A66D-AD6E7742B553-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CCompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/main.o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428927372.828108
+e428927373.495170
+r1
+xCompileC
+xbuild/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/main.o
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m171"CompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler992ad48ce990b941^d6c47e8de990b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m0000000000000000^3809"CompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-bkrvnugesotaoaclosxxasdpawzr/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/main.dia -c /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m -o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/main.o36"1B6B9058-177D-49BE-8A3D-9770E47A0411-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CCompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/rebuild.build.o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428927372.829226
+e428927407.493737
+r1
+xCompileC
+xbuild/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/rebuild.build.o
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/mstypeinfo.h
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/helpers/cpp_defs.h
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/helpers/cpp_maapi.h
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/helpers/maapi_defs.h
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/syscall_static_cpp.h
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/converters.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp191"CompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/rebuild.build.o Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler4dbbd48ce990b941^f1657eafe990b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp0000000000000000^3792"CompileC build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/rebuild.build.o Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-hbdjzdplnekjmbeijqdnsstsqxoa/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/rebuild.build.d --serialize-diagnostics /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/rebuild.build.dia -c /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp -o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/rebuild.build.o36"FFB1E89B-93C6-4A34-8404-9B85DF5DE49F-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Default-568h@2x.png Default-568h@2x.png
+s428927371.687014
+e428927371.818646
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Default-568h@2x.png
+xDefault-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Default-568h@2x.png Default-568h@2x.png90"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Default-568h@2x.png Default-568h@2x.png7bf7af8be990b941^5f9bd18be990b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Default-568h@2x.png0000000000000000^740"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Default-568h@2x.png Default-568h@2x.png    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Default-568h@2x.png /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Default-568h@2x.png36"9D9CE010-54B8-43F3-A1E5-89521812BFC2-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon-72.png Icon-72.png
+s428927371.678889
+e428927371.744431
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon-72.png
+xIcon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Icon-72.png Icon-72.png74"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Icon-72.png Icon-72.png200aae8be990b941^b6f2be8be990b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon-72.png0000000000000000^708"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Icon-72.png Icon-72.png    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon-72.png /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon-72.png36"B337973F-17D0-4D13-A252-AD70DD10007B-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon.png Icon.png
+s428927371.680101
+e428927371.745468
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon.png
+xIcon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Icon.png Icon.png68"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Icon.png Icon.png3737ae8be990b941^5d86bf8be990b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon.png0000000000000000^696"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Icon.png Icon.png    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon.png /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon.png36"86BC6562-2AFE-45DB-8C5D-70419D1C9E2D-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon@2x.png Icon@2x.png
+s428927371.685501
+e428927371.758614
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon@2x.png
+xIcon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Icon@2x.png Icon@2x.png74"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Icon@2x.png Icon@2x.png5edbaf8be990b941^a644c28be990b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon@2x.png0000000000000000^708"CopyPNGFile build/Release-iphoneos/CameraHTML5.app/Icon@2x.png Icon@2x.png    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon@2x.png /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Icon@2x.png36"DDE3F2DF-518D-40D7-A163-EA28F7DB05DC-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/CameraHTML5.app/ResourceRules.plist
+s428927371.676339
+e428927371.677767
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/CameraHTML5.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Release-iphoneos/CameraHTML5.app/ResourceRules.plist191"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/CameraHTML5.app/ResourceRules.plista33aad8be990b941^ba82ad8be990b941^---0#0#1#-19%DVTDocumentLocation2@153"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/ResourceRules.plist00341ce0dfffdf42^962"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/CameraHTML5.app/ResourceRules.plist    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app36"399C8B0C-8980-4CD5-8767-AECD0B2AD459-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CCpResource data_section.bin build/Release-iphoneos/CameraHTML5.app/data_section.bin
+s428927371.678530
+e428927371.685251
+r1
+xCpResource
+xdata_section.bin
+xbuild/Release-iphoneos/CameraHTML5.app/data_section.bin
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release-iphoneos/CameraHTML5.app/data_section.bin83"CpResource data_section.bin build/Release-iphoneos/CameraHTML5.app/data_section.bin93c5ad8be990b941^9581af8be990b941^---0#0#1#-19%DVTDocumentLocation2@150"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/data_section.bin00341ce0dfffdf42^837"CpResource data_section.bin build/Release-iphoneos/CameraHTML5.app/data_section.bin    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/data_section.bin /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app36"600400DC-0971-421C-88A0-6D4CE86E486D-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CCpResource resources build/Release-iphoneos/CameraHTML5.app/resources
+s428927371.678315
+e428927371.685269
+r1
+xCpResource
+xresources
+xbuild/Release-iphoneos/CameraHTML5.app/resources
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Release-iphoneos/CameraHTML5.app/resources69"CpResource resources build/Release-iphoneos/CameraHTML5.app/resourcesfab9ad8be990b941^4294af8be990b941^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/resources00341ce0dfffdf42^816"CpResource resources build/Release-iphoneos/CameraHTML5.app/resources    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/resources /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app36"C8E13F49-CDC5-456C-B0B1-459DCC3DCFCC-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CGenerateDSYMFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app.dSYM /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/CameraHTML5
+s428927407.943290
+e428927408.404192
+r1
+xGenerateDSYMFile
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app.dSYM
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/CameraHTML5
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Generate /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app.dSYM111"GenerateDSYMFile build/Release-iphoneos/CameraHTML5.app.dSYM build/Release-iphoneos/CameraHTML5.app/CameraHTML5fb92f1afe990b941^747d67b0e990b941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app.dSYM00341ce0dfffdf42^769"GenerateDSYMFile build/Release-iphoneos/CameraHTML5.app.dSYM build/Release-iphoneos/CameraHTML5.app/CameraHTML5    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/CameraHTML5 -o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app.dSYM36"A230117A-300A-4668-9C9F-4441BB574950-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CLd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/CameraHTML5 normal armv7
+s428927407.496882
+e428927407.941991
+r1
+xLd
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/CameraHTML5
+xnormal
+xarmv7
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/CameraHTML5.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/main.o
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/rebuild.build.o
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/MoSyncViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/libs/Release-iphoneos/libMoSyncLib.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libsqlite3.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libstdc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Link /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/CameraHTML566"Ld build/Release-iphoneos/CameraHTML5.app/CameraHTML5 normal armv7304b7fafe990b941^3d27f1afe990b941^---0#0#1#--2128"Ld build/Release-iphoneos/CameraHTML5.app/CameraHTML5 normal armv7    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -Llibs/Release-iphoneos -L/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/libs/Release-iphonesimulator -F/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -filelist /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/CameraHTML5.LinkFileList -dead_strip -ObjC -fobjc-link-runtime -miphoneos-version-min=5.0 -framework CoreVideo -framework StoreKit -framework CoreMedia -weak_framework MobileCoreServices -weak_framework iAd -framework MediaPlayer -weak_framework EventKit -weak_framework CoreMotion -framework AddressBook -weak_framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -weak_framework AVFoundation -framework CoreLocation -lMoSyncLib -framework OpenGLES -framework QuartzCore -weak_framework MessageUI -lsqlite3 -framework SystemConfiguration -framework MapKit -Xlinker -dependency_info -Xlinker /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/Objects-normal/armv7/CameraHTML5_dependency_info.dat -o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/CameraHTML536"B3706EEA-E5E3-4376-BB81-2FF5DA8B943D-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CProcessInfoPlistFile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Info.plist /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CameraHTML5.plist
+s428927371.673212
+e428927371.675618
+r1
+xProcessInfoPlistFile
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Info.plist
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CameraHTML5.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Process /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CameraHTML5.plist88"ProcessInfoPlistFile build/Release-iphoneos/CameraHTML5.app/Info.plist CameraHTML5.plist6e6eac8be990b941^a1f5ac8be990b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CameraHTML5.plist0000000000000000^1016"ProcessInfoPlistFile build/Release-iphoneos/CameraHTML5.app/Info.plist CameraHTML5.plist    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CameraHTML5.plist -genpkginfo /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/ResourceRules.plist -o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/Info.plist36"459119AF-EF77-41A0-80A8-F268FA4E5EF9-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-bkrvnugesotaoaclosxxasdpawzr/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428927371.819874
+e428927372.803538
+r1
+xProcessPCH
+x/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-bkrvnugesotaoaclosxxasdpawzr/MoSync_Prefix.pch.pch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pch280"ProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-bkrvnugesotaoaclosxxasdpawzr/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler8a90d28be990b941^d0b3cd8ce990b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^3768"ProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-bkrvnugesotaoaclosxxasdpawzr/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos --serialize-diagnostics /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-bkrvnugesotaoaclosxxasdpawzr/MoSync_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-bkrvnugesotaoaclosxxasdpawzr/MoSync_Prefix.pch.d -c /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-bkrvnugesotaoaclosxxasdpawzr/MoSync_Prefix.pch.pch36"09596972-3C03-443D-AE2B-004FEBE3D93A-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gkmjndwlqqhtwcahdmjrenoablkk/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428927371.820509
+e428927372.827057
+r1
+xProcessPCH++
+x/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gkmjndwlqqhtwcahdmjrenoablkk/MoSync_Prefix.pch.pch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pch284"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gkmjndwlqqhtwcahdmjrenoablkk/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerc460d28be990b941^6fbcd38ce990b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^3892"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gkmjndwlqqhtwcahdmjrenoablkk/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos --serialize-diagnostics /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gkmjndwlqqhtwcahdmjrenoablkk/MoSync_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gkmjndwlqqhtwcahdmjrenoablkk/MoSync_Prefix.pch.d -c /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gkmjndwlqqhtwcahdmjrenoablkk/MoSync_Prefix.pch.pch36"CEBAB81A-4DA5-44FA-9916-7C85F2014A99-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-hbdjzdplnekjmbeijqdnsstsqxoa/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428927371.822684
+e428927371.906476
+r1
+xProcessPCH++
+x/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-hbdjzdplnekjmbeijqdnsstsqxoa/MoSync_Prefix.pch.pch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pch274"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-hbdjzdplnekjmbeijqdnsstsqxoa/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compilerb1c1d28be990b941^c80ce88be990b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^3679"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-hbdjzdplnekjmbeijqdnsstsqxoa/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos --serialize-diagnostics /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-hbdjzdplnekjmbeijqdnsstsqxoa/MoSync_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-hbdjzdplnekjmbeijqdnsstsqxoa/MoSync_Prefix.pch.d -c /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-hbdjzdplnekjmbeijqdnsstsqxoa/MoSync_Prefix.pch.pch36"E2E8ABE2-7245-41D0-BB61-AEB700B28C28-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5.xcent
+s428927408.407417
+e428927408.409073
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection221"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5.xcent221"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5.xcentd15b68b0e990b941^aab968b0e990b941^---0#0#1#-19%DVTDocumentLocation2@171"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5.xcent00341ce0dfffdf42^856"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5.xcent    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CameraHTML5.build/Release-iphoneos/CameraHTML5.build/CameraHTML5.xcent36"34322D28-383A-4F14-B1EA-3E857E4A001C-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/embedded.mobileprovision
+s428927408.404827
+e428927408.406211
+r1
+xProcessProductPackaging
+x/Users/matteo/Library/MobileDevice/Provisioning Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision
+x/Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection198"ProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision build/Release-iphoneos/CameraHTML5.app/embedded.mobileprovision198"ProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision build/Release-iphoneos/CameraHTML5.app/embedded.mobileprovisionaaba67b0e990b941^f8fd67b0e990b941^---0#0#1#-19%DVTDocumentLocation2@158"file:///Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/embedded.mobileprovision00341ce0dfffdf42^784"ProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision build/Release-iphoneos/CameraHTML5.app/embedded.mobileprovision    cd /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision -o /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app/embedded.mobileprovision36"329E6A98-8B0B-4370-A9B5-6CD6FB267522-
+b5BA5071F-01FC-42E0-82F9-23E614EED9FE
+
+CTouch /Users/matteo/Developer/MoSync/CameraHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CameraHTML5.app
+r0
+

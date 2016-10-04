@@ -1,0 +1,430 @@
+Logger started at: marted� 9 luglio 2013 16.08.34 CEST
+Component: com.appcelerator.titanium.mobile
+Version: 1.0.0.1365815402
+[8:34.182] Sent: >21*1373378914179*version<
+[8:34.184] Recv: >1373378914179*2*3.1.0.GA<
+[8:34.187] Sent: >36*1373378914180*option*monitorXHR*true<
+[8:34.188] Recv: >1373378914180<
+[8:34.188] Sent: >45*1373378914181*option*suspendOnFirstLine*false<
+[8:34.188] Recv: >1373378914181<
+[8:34.189] Sent: >46*1373378914182*option*suspendOnExceptions*false<
+[8:34.189] Recv: >1373378914182<
+[8:34.189] Sent: >41*1373378914183*option*suspendOnErrors*true<
+[8:34.190] Recv: >1373378914183<
+[8:34.190] Sent: >43*1373378914184*option*suspendOnKeywords*true<
+[8:34.191] Recv: >1373378914184<
+[8:34.191] Sent: >45*1373378914185*option*bypassConstructors*false<
+[8:34.192] Recv: >1373378914185<
+[8:34.192] Sent: >45*1373378914186*option*stepFiltersEnabled*false<
+[8:34.192] Recv: >1373378914186<
+[8:34.192] Sent: >30*1373378914187*detailFormatters<
+[8:34.194] Recv: >1373378914187<
+[8:34.194] Sent: >62*1373378914188*breakpoint*create*app:/ui/gameArea.js*155*1*0**1<
+[8:34.195] Recv: >1373378914188*created<
+[8:34.195] Sent: >65*1373378914189*breakpoint*create*app:/controller/Game.js*74*1*0**1<
+[8:34.196] Recv: >1373378914189*created<
+[8:34.196] Sent: >20*1373378914190*enable<
+[8:34.197] Recv: >1373378914190<
+[8:34.204] Recv: >threads*created*0*kroll$1<
+[8:34.204] Recv: >log*out*[DEBUG] Analytics is enabled = YES<
+[8:34.204] Recv: >log*out*[DEBUG] Loading: /Users/matteo/Library/Application Support/iPhone Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/app.js, Resource: app_js<
+[8:34.205] Recv: >scripts*created*339794656|app:/app.js||1|39<
+[8:34.205] Recv: >resumed*0*started<
+[8:34.210] Recv: >log*out*[DEBUG] Include url: file://localhost/Users/matteo/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/controller/Game.js<
+[8:34.212] Recv: >log*out*[DEBUG] Loading: /Users/matteo/Library/Application Support/iPhone Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/controller/Game.js, Resource: controller/Game_js<
+[8:34.244] Recv: >scripts*created*339794240|app:/controller/Game.js||1|384<
+[8:34.245] Recv: >log*out*[DEBUG] Include url: file://localhost/Users/matteo/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/utils.js<
+[8:34.245] Recv: >log*out*[DEBUG] Loading: /Users/matteo/Library/Application Support/iPhone Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/utils.js, Resource: utils_js<
+[8:34.245] Recv: >scripts*created*339794048|app:/utils.js||1|212<
+[8:34.246] Recv: >log*out*[DEBUG] Include url: file://localhost/Users/matteo/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/ui/GameBoard.js<
+[8:34.246] Recv: >log*out*[DEBUG] Loading: /Users/matteo/Library/Application Support/iPhone Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/ui/GameBoard.js, Resource: ui/GameBoard_js<
+[8:34.247] Recv: >scripts*created*339795936|app:/ui/GameBoard.js||1|337<
+[8:34.248] Recv: >log*out*[DEBUG] Include url: file://localhost/Users/matteo/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/ui/MainScreen.js<
+[8:34.248] Recv: >log*out*[DEBUG] Loading: /Users/matteo/Library/Application Support/iPhone Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/ui/MainScreen.js, Resource: ui/MainScreen_js<
+[8:34.248] Recv: >scripts*created*339795872|app:/ui/MainScreen.js||1|81<
+[8:34.251] Recv: >log*out*[DEBUG] Include url: file://localhost/Users/matteo/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/ui/recordBar.js<
+[8:34.251] Recv: >log*out*[DEBUG] Loading: /Users/matteo/Library/Application Support/iPhone Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/ui/recordBar.js, Resource: ui/recordBar_js<
+[8:34.252] Recv: >scripts*created*339795680|app:/ui/recordBar.js||1|59<
+[8:34.278] Recv: >log*out*[DEBUG] Include url: file://localhost/Users/matteo/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/ui/gameArea.js<
+[8:34.278] Recv: >log*out*[DEBUG] Loading: /Users/matteo/Library/Application Support/iPhone Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/ui/gameArea.js, Resource: ui/gameArea_js<
+[8:34.279] Recv: >scripts*created*339794144|app:/ui/gameArea.js||1|504<
+[8:34.279] Recv: >log*out*[DEBUG] Include url: file://localhost/Users/matteo/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/ui/selectUser.js<
+[8:34.279] Recv: >log*out*[DEBUG] Loading: /Users/matteo/Library/Application Support/iPhone Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/ui/selectUser.js, Resource: ui/selectUser_js<
+[8:34.279] Recv: >scripts*created*339795136|app:/ui/selectUser.js||1|394<
+[8:34.280] Recv: >log*out*[DEBUG] Include url: file://localhost/Users/matteo/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/controller/routeParser.js<
+[8:34.284] Recv: >log*out*[DEBUG] Loading: /Users/matteo/Library/Application Support/iPhone Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/controller/routeParser.js, Resource: controller/routeParser_js<
+[8:34.285] Recv: >scripts*created*339795616|app:/controller/routeParser.js||1|98<
+[8:34.286] Recv: >log*out*[DEBUG] Include url: file://localhost/Users/matteo/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/controller/db.js<
+[8:34.286] Recv: >log*out*[DEBUG] Loading: /Users/matteo/Library/Application Support/iPhone Simulator/6.1/Applications/56240076-E92F-4673-B7E5-0EE7C52864DA/GiochiPesci.app/controller/db.js, Resource: controller/db_js<
+[8:34.287] Recv: >scripts*created*340394752|app:/controller/db.js||1|199<
+[8:34.287] Recv: >log*out*[INFO] Debug: DB:createDatabase<
+[8:34.287] Recv: >log*out*[INFO] Debug: DB:openDB<
+[8:34.291] Recv: >log*out*[INFO] Debug: w 768<
+[8:34.292] Recv: >log*out*[INFO] Debug: h 1024<
+[8:34.295] Recv: >log*out*[INFO] Debug: GameBoard::createSelectUserScreen<
+[8:34.297] Recv: >log*out*[INFO] Debug: DB:getInsertedUsers<
+[8:34.297] Recv: >log*out*[INFO] Debug: DB:openDB<
+[8:35.86] Recv: >log*out*[DEBUG] Application booted in 955.103993 ms<
+[8:49.263] Recv: >log*out*[INFO] Debug: Registrazione nuovo utente<
+[8:49.266] Recv: >log*out*[INFO] Debug: DB:insertNewUser<
+[8:49.267] Recv: >log*out*[INFO] Debug: Matteo<
+[8:49.267] Recv: >log*out*[INFO] Debug: Ciman<
+[8:49.267] Recv: >log*out*[INFO] Debug: Arzignano<
+[8:49.267] Recv: >log*out*[INFO] Debug: 01/01/2000<
+[8:49.268] Recv: >log*out*[INFO] Debug: hash e11e4d089fe7bf50a3ee0fe9c1c4bac4<
+[8:49.268] Recv: >log*out*[INFO] Debug: DB:openDB<
+[8:49.273] Recv: >log*out*[INFO] Debug: Game::createGame e11e4d089fe7bf50a3ee0fe9c1c4bac4<
+[8:49.294] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.295] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.296] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.297] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.298] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.299] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.300] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.301] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.303] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.304] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.305] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.306] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.308] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.309] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.310] Recv: >log*out*[INFO] Debug: effects 3<
+[8:49.312] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.314] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.315] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.316] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.317] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.320] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.321] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.322] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.323] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.325] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.326] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.326] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.327] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.329] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.330] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.331] Recv: >log*out*[INFO] Debug: effects 3<
+[8:49.332] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.333] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.334] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.335] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.336] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.338] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.339] Recv: >log*out*[INFO] Debug: effects 3<
+[8:49.339] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.340] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.342] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.343] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.344] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.345] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.346] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.347] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.347] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.348] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.350] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.351] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.352] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.353] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.355] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.356] Recv: >log*out*[INFO] Debug: effects 3<
+[8:49.357] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.358] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.359] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.360] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.361] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.362] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.364] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.365] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.366] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.367] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.369] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.370] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.370] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.371] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.373] Recv: >log*out*[INFO] Debug: effects 3<
+[8:49.374] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.377] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.378] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.380] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.381] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.382] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.383] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.385] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.386] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.387] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.388] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.390] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.390] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.391] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.392] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.394] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.395] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.396] Recv: >log*out*[INFO] Debug: effects 3<
+[8:49.397] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.401] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.402] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.403] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.404] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.407] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.408] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.409] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.410] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.414] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.415] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.416] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.418] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.421] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.422] Recv: >log*out*[INFO] Debug: effects 3<
+[8:49.423] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.424] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.427] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.428] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.429] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.431] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.434] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.435] Recv: >log*out*[INFO] Debug: effects 3<
+[8:49.437] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.438] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.441] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.442] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.443] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.444] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.445] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.446] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.447] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.448] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.451] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.452] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.453] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.454] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.456] Recv: >log*out*[INFO] Debug: effects 3<
+[8:49.457] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.457] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.458] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.460] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.461] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.462] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.463] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.465] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.466] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.467] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.468] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.470] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.470] Recv: >log*out*[INFO] Debug: effects 0<
+[8:49.471] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.472] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.477] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.478] Recv: >log*out*[INFO] Debug: effects 3<
+[8:49.479] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.480] Recv: >log*out*[INFO] Debug: effects 7<
+[8:49.481] Recv: >log*out*[INFO] Debug: INIZIO STAMPA ROUTE<
+[8:49.482] Recv: >log*out*[INFO] Debug: RACE_LENGTH 5550<
+[8:49.482] Recv: >log*out*[INFO] Debug: NUM_DIFFICULTIES 36<
+[8:49.482] Recv: >log*out*[INFO] Debug: NUM_LETTERS 14<
+[8:49.482] Recv: >log*out*[INFO] Debug: stampo difficoltà <
+[8:49.483] Recv: >log*out*[INFO] Debug: type 1<
+[8:49.483] Recv: >log*out*[INFO] Debug: distance 150<
+[8:49.483] Recv: >log*out*[INFO] Debug: cuePos 0<
+[8:49.483] Recv: >log*out*[INFO] Debug: stampo position 0<
+[8:49.483] Recv: >log*out*[INFO] Debug: number 1<
+[8:49.484] Recv: >log*out*[INFO] Debug: img difficulty1<
+[8:49.484] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.484] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.484] Recv: >log*out*[INFO] Debug: stampo position 1<
+[8:49.484] Recv: >log*out*[INFO] Debug: number 0<
+[8:49.485] Recv: >log*out*[INFO] Debug: img <
+[8:49.485] Recv: >log*out*[INFO] Debug: effect <
+[8:49.485] Recv: >log*out*[INFO] Debug: type empty<
+[8:49.485] Recv: >log*out*[INFO] Debug: stampo position 2<
+[8:49.485] Recv: >log*out*[INFO] Debug: number 2<
+[8:49.485] Recv: >log*out*[INFO] Debug: img difficulty2<
+[8:49.485] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.486] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.486] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.486] Recv: >log*out*[INFO] Debug: number 3<
+[8:49.486] Recv: >log*out*[INFO] Debug: img difficulty0<
+[8:49.486] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.486] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.486] Recv: >log*out*[INFO] Debug: stampo difficoltà <
+[8:49.487] Recv: >log*out*[INFO] Debug: type 034*log*out*[INFO] Debug: distance 12539*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Deb<
+[8:49.488] Recv: >log*out*[INFO] Debug: img 29*log*out*[INFO] Debug: effect 32*log*out*[INFO] Debug: type empty39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 137*log*out*[INFO] Debug: img difficulty141*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo posi<
+[8:49.489] Recv: >log*out*[INFO] Debug: number 237*log*out*[INFO] Debug: img difficulty341*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 330*log*out*[INFO] Debug: number 037*<
+[8:49.492] Recv: >log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle41*log*out*[INFO] Debug: stampo difficoltà 228*log*out*[INFO] Debug: type 134*log*out*[INFO] Debug: distance 15030*log*out*[INFO] Debug: cuePos 139*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 126*log*out*[INFO] Debug: img 29*log*out*[INFO] Debug: effect 32*log*out*[INFO] Debug: type empty39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 337*log*out*[INFO] Debug: img difficulty541*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 230*log<
+[8:49.492] Recv: >log*out*[INFO] Debug: img difficulty1<
+[8:49.492] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.493] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.493] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.493] Recv: >log*out*[INFO] Debug: number 2<
+[8:49.493] Recv: >log*out*[INFO] Debug: img difficulty3<
+[8:49.493] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.494] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.494] Recv: >log*out*[INFO] Debug: stampo difficoltà <
+[8:49.495] Recv: >log*out*[INFO] Debug: type 234*log*out*[INFO] Debug: distance 15033*log*out*[INFO] Debug: cueLetter q39*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 038*log*out*[INFO] Debug: img difficulty1439*log*out*[INFO] Debug: effect v 4, p 1, 33*log*out*[INFO] Debug: type letter39*log*out*[INFO] Debug: stampo p<
+[8:49.495] Recv: >log*out*[INFO] Debug: number 137*log*out*[INFO] Debug: img difficulty441*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO<
+[8:49.495] Recv: >log*out*[INFO] Debug: stampo position 2<
+[8:49.496] Recv: >log*out*[INFO] Debug: number 2<
+[8:49.496] Recv: >log*out*[INFO] Debug: img difficulty15<
+[8:49.496] Recv: >log*out*[INFO] Debug: effect p -1, <
+[8:49.496] Recv: >log*out*[INFO] Debug: type letter<
+[8:49.496] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.496] Recv: >log*out*[INFO] Debug: number 3<
+[8:49.497] Recv: >log*out*[INFO] Debug: img difficulty0<
+[8:49.497] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.497] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.497] Recv: >log*out*[INFO] Debug: stampo difficoltà <
+[8:49.499] Recv: >log*out*[INFO] Debug: type 134*log*out*[INFO] Debug: distance 15030*log*out*[INFO] Debug: cuePos 239*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 037*log*out*[INFO] Debug: img difficulty641*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 137*log*out*[INFO] Debug: img difficulty141*log*out*[INFO] <
+[8:49.499] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.499] Recv: >log*out*[INFO] Debug: stampo position 2<
+[8:49.500] Recv: >log*out*[INFO] Debug: number 2<
+[8:49.500] Recv: >log*out*[INFO] Debug: img <
+[8:49.500] Recv: >log*out*[INFO] Debug: effect <
+[8:49.500] Recv: >log*out*[INFO] Debug: type empty<
+[8:49.500] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.500] Recv: >log*out*[INFO] Debug: number 3<
+[8:49.500] Recv: >log*out*[INFO] Debug: img difficulty2<
+[8:49.501] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.501] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.501] Recv: >log*out*[INFO] Debug: stampo difficoltà <
+[8:49.503] Recv: >log*out*[INFO] Debug: type 334*log*out*[INFO] Debug: distance 19035*log*out*[INFO] Debug: cueGroup gruz32*log*out*[INFO] Debug: cuePlace 239*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 338*log*out*[INFO] Debug: img difficulty3539*log*out*[INFO] Debug: effect v 4, p 1, 33*log*out*[INFO] Debug: type letter39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 138*log*out*[INFO] Debug: img difficulty4041*log*out*[INFO] Debug: effect v -2, p -1, 33*log*out*[INFO] Debug: type letter<
+[8:49.503] Recv: >log*out*[INFO] Debug: stampo position 2<
+[8:49.504] Recv: >log*out*[INFO] Debug: number 0<
+[8:49.505] Recv: >log*out*[INFO] Debug: img difficulty38<
+[8:49.505] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.506] Recv: >log*out*[INFO] Debug: type letter<
+[8:49.506] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.506] Recv: >log*out*[INFO] Debug: number 2<
+[8:49.506] Recv: >log*out*[INFO] Debug: img difficulty29<
+[8:49.507] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.507] Recv: >log*out*[INFO] Debug: type letter<
+[8:49.507] Recv: >log*out*[INFO] Debug: stampo difficoltà <
+[8:49.509] Recv: >log*out*[INFO] Debug: type 134*log*out*[INFO] Debug: distance 15030*log*out*[INFO] Debug: cuePos 139*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 037*log*out*[INFO] Debug: img difficulty141*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 126*log*out*[INFO] Debug: img 29*log*out*[INFO] Debug: effect 32*log*out*[INFO] Debug: type empty39*log*out*[INFO] Debug: stampo position 230*log*out*[INFO] Debug: number 237*log*out*[INFO] Debug: img difficulty441*log*out*[INFO] Debug: effect v -2, p -1, 35*<
+[8:49.510] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.510] Recv: >log*out*[INFO] Debug: number 3<
+[8:49.510] Recv: >log*out*[INFO] Debug: img difficulty3<
+[8:49.511] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.512] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.512] Recv: >log*out*[INFO] Debug: stampo difficoltà <
+[8:49.515] Recv: >log*out*[INFO] Debug: type 234*log*out*[INFO] Debug: distance 15033*log*out*[INFO] Debug: cueLetter s39*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 137*log*out*[INFO] Debug: img difficulty141*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 238*log*out*[INFO] Debug: img difficulty1739*log*out*[INFO] Debug: effect v 4, p 1, 33*log*out*[INFO] Debug: type letter39*log*out*[INFO] Debug: stampo position 230*log*out*[INFO] Debug: number 038*log*out*[INFO] Debug: img difficulty1835*log*out*[INFO] Debug: effect p -1, 33*log*out*[INFO] Debug: type letter39*log*out*[INFO] Debug: stampo position 330*l<
+[8:49.516] Recv: >log*out*[INFO] Debug: img difficulty541*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle41*log*out*[INFO] Debug: stampo difficoltà 828*log*out*[INFO] Debug: type 134*log*out*[INFO] Debug: distance 15030*log*out*[INFO] Debug: cuePos 039*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: numbe<
+[8:49.517] Recv: >log*out*[INFO] Debug: img difficulty141*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] <
+[8:49.518] Recv: >log*out*[INFO] Debug: number 237*log*out*[INFO] Debug: img difficulty241*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO<
+[8:49.519] Recv: >log*out*[INFO] Debug: stampo position 2<
+[8:49.519] Recv: >log*out*[INFO] Debug: number 3<
+[8:49.519] Recv: >log*out*[INFO] Debug: img difficulty0<
+[8:49.519] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.519] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.519] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.520] Recv: >log*out*[INFO] Debug: number 0<
+[8:49.520] Recv: >log*out*[INFO] Debug: img <
+[8:49.520] Recv: >log*out*[INFO] Debug: effect <
+[8:49.520] Recv: >log*out*[INFO] Debug: type empty<
+[8:49.520] Recv: >log*out*[INFO] Debug: stampo difficoltà <
+[8:49.526] Recv: >log*out*[INFO] Debug: type 234*log*out*[INFO] Debug: distance 15033*log*out*[INFO] Debug: cueLetter n39*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 137*log*out*[INFO] Debug: img difficulty641*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 037*log*out*[INFO] Debug: img difficulty935*log*out*[INFO] Debug: effect p -1, 33*log*out*[INFO] Debug: type letter39*log*out*[INFO] Debug: stampo position 230*log*out*[INFO] Debug: number 337*log*out*[INFO] Debug: img difficulty341*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 330*log*out*[INFO] Debug: number 237*log*out*[INFO] Debug: img difficulty839*log*out*[INFO] Debug: effect v 4, p 1, 33*log*out*[INFO] Debug: type letter42*log*out*[INFO] Debug: stampo difficoltà 1028*lo<
+[8:49.527] Recv: >log*out*[INFO] Debug: distance 15030*log*out*[INFO] Debug: cuePos 139*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: <
+[8:49.527] Recv: >log*out*[INFO] Debug: img difficulty1<
+[8:49.527] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.527] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.528] Recv: >log*out*[INFO] Debug: stampo position 1<
+[8:49.528] Recv: >log*out*[INFO] Debug: number 2<
+[8:49.528] Recv: >log*out*[INFO] Debug: img difficulty4<
+[8:49.528] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.528] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.528] Recv: >log*out*[INFO] Debug: stampo position 2<
+[8:49.528] Recv: >log*out*[INFO] Debug: number 1<
+[8:49.529] Recv: >log*out*[INFO] Debug: img <
+[8:49.529] Recv: >log*out*[INFO] Debug: effect <
+[8:49.529] Recv: >log*out*[INFO] Debug: type empty<
+[8:49.529] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.529] Recv: >log*out*[INFO] Debug: number 3<
+[8:49.529] Recv: >log*out*[INFO] Debug: img difficulty3<
+[8:49.530] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.530] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.530] Recv: >log*out*[INFO] Debug: stampo difficoltà 1<
+[8:49.531] Recv: >log*out*[INFO] Debug: type 034*log*out*[INFO] Debug: distance 12539*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Deb<
+[8:49.531] Recv: >log*out*[INFO] Debug: img difficulty1<
+[8:49.531] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.531] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.531] Recv: >log*out*[INFO] Debug: stampo position 1<
+[8:49.532] Recv: >log*out*[INFO] Debug: number 2<
+[8:49.532] Recv: >log*out*[INFO] Debug: img <
+[8:49.532] Recv: >log*out*[INFO] Debug: effect <
+[8:49.533] Recv: >log*out*[INFO] Debug: type empty<
+[8:49.533] Recv: >log*out*[INFO] Debug: stampo position 2<
+[8:49.533] Recv: >log*out*[INFO] Debug: number 1<
+[8:49.533] Recv: >log*out*[INFO] Debug: img difficulty5<
+[8:49.533] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.534] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.534] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.534] Recv: >log*out*[INFO] Debug: number 3<
+[8:49.534] Recv: >log*out*[INFO] Debug: img difficulty2<
+[8:49.535] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.535] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.535] Recv: >log*out*[INFO] Debug: stampo difficoltà 1<
+[8:49.535] Recv: >log*out*[INFO] Debug: type 134*log*out*[INFO] Debug: distance 15030*log*out*[INFO] Debug: cuePos 039*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 237*log*out*[INFO] Debug: img difficulty641*log*out*[INF<
+[8:49.536] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.536] Recv: >log*out*[INFO] Debug: stampo position 1<
+[8:49.536] Recv: >log*out*[INFO] Debug: number 0<
+[8:49.536] Recv: >log*out*[INFO] Debug: img <
+[8:49.536] Recv: >log*out*[INFO] Debug: effect <
+[8:49.536] Recv: >log*out*[INFO] Debug: type empty<
+[8:49.537] Recv: >log*out*[INFO] Debug: stampo position 2<
+[8:49.537] Recv: >log*out*[INFO] Debug: number 1<
+[8:49.537] Recv: >log*out*[INFO] Debug: img difficulty1<
+[8:49.537] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.538] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.538] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.538] Recv: >log*out*[INFO] Debug: number 3<
+[8:49.538] Recv: >log*out*[INFO] Debug: img difficulty2<
+[8:49.538] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.538] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.538] Recv: >log*out*[INFO] Debug: stampo difficoltà 1<
+[8:49.540] Recv: >log*out*[INFO] Debug: type 234*log*out*[INFO] Debug: distance 15033*log*out*[INFO] Debug: cueLetter e39*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 037*log*out*[INFO] Debug: img difficulty141*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stamp<
+[8:49.541] Recv: >log*out*[INFO] Debug: number 138*log*out*[INFO] Debug: img difficulty1935*log*out*[INFO] Debug: effect p -1, 33*log*out*[INFO] Deb<
+[8:49.541] Recv: >log*out*[INFO] Debug: stampo position 2<
+[8:49.541] Recv: >log*out*[INFO] Debug: number 2<
+[8:49.541] Recv: >log*out*[INFO] Debug: img difficulty2<
+[8:49.541] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.541] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.541] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.542] Recv: >log*out*[INFO] Debug: number 3<
+[8:49.542] Recv: >log*out*[INFO] Debug: img difficulty20<
+[8:49.542] Recv: >log*out*[INFO] Debug: effect v 4, p 1, <
+[8:49.542] Recv: >log*out*[INFO] Debug: type letter<
+[8:49.543] Recv: >log*out*[INFO] Debug: stampo difficoltà 1<
+[8:49.544] Recv: >log*out*[INFO] Debug: type 134*log*out*[INFO] Debug: distance 15030*log*out*[INFO] Debug: cuePos 039*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 137*log*out*[INFO] Debug: img difficulty141*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 237*log*out*[INFO] Debug: img difficulty241*log*out*[INFO] <
+[8:49.545] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.545] Recv: >log*out*[INFO] Debug: stampo position 2<
+[8:49.545] Recv: >log*out*[INFO] Debug: number 0<
+[8:49.545] Recv: >log*out*[INFO] Debug: img <
+[8:49.545] Recv: >log*out*[INFO] Debug: effect <
+[8:49.545] Recv: >log*out*[INFO] Debug: type empty<
+[8:49.545] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.546] Recv: >log*out*[INFO] Debug: number 3<
+[8:49.546] Recv: >log*out*[INFO] Debug: img difficulty0<
+[8:49.546] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.546] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.546] Recv: >log*out*[INFO] Debug: stampo difficoltà 1<
+[8:49.548] Recv: >log*out*[INFO] Debug: type 334*log*out*[INFO] Debug: distance 19035*log*out*[INFO] Debug: cueGroup agoz32*log*out*[INFO] Debug: cuePlace 139*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 238*log*out*[INFO] Debug: img difficulty2541*log*out*[INFO] Debug: effect v -2, p -1, 33*log*out*[INFO] Debug: type letter39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 338*log*out*[INFO] Debug: img difficulty2939*log*out*[INFO] Debug: effect v 4, p 1, 33*log*out*[INFO] Debug: type letter<
+[8:49.549] Recv: >log*out*[INFO] Debug: stampo position 2<
+[8:49.549] Recv: >log*out*[INFO] Debug: number 1<
+[8:49.549] Recv: >log*out*[INFO] Debug: img difficulty34<
+[8:49.549] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.549] Recv: >log*out*[INFO] Debug: type letter<
+[8:49.549] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.550] Recv: >log*out*[INFO] Debug: number 0<
+[8:49.550] Recv: >log*out*[INFO] Debug: img difficulty40<
+[8:49.550] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.550] Recv: >log*out*[INFO] Debug: type letter<
+[8:49.550] Recv: >log*out*[INFO] Debug: stampo difficoltà 1<
+[8:49.553] Recv: >log*out*[INFO] Debug: type 134*log*out*[INFO] Debug: distance 15030*log*out*[INFO] Debug: cuePos 139*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 126*log*out*[INFO] Debug: img 29*log*out*[INFO] Debug: effect 32*log*out*[INFO] Debug: type empty39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 037*log*out*[INFO] Debug: img difficulty141*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 230*log*out*[INFO] Debug: number 237*log*out*[INFO] Debug: img difficulty441*log*out*[INFO] Debug: effect v -2, p -1, 35*<
+[8:49.553] Recv: >log*out*[INFO] Debug: stampo position 3<
+[8:49.553] Recv: >log*out*[INFO] Debug: number 3<
+[8:49.553] Recv: >log*out*[INFO] Debug: img difficulty3<
+[8:49.553] Recv: >log*out*[INFO] Debug: effect v -2, p -1, <
+[8:49.553] Recv: >log*out*[INFO] Debug: type obstacle<
+[8:49.554] Recv: >log*out*[INFO] Debug: stampo difficoltà 1<
+[8:49.557] Recv: >log*out*[INFO] Debug: type 234*log*out*[INFO] Debug: distance 15033*log*out*[INFO] Debug: cueLetter n39*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 237*log*out*[INFO] Debug: img difficulty735*log*out*[INFO] Debug: effect p -1, 33*log*out*[INFO] Debug: type letter39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 037*log*out*[INFO] Debug: img difficulty141*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 230*log*out*[INFO] Debug: number 337*log*out*[INFO] Debug: img difficulty839*log*out*[INFO] Debug: effect v 4, p 1, 33*log*out*[INFO] Debug: type letter39*log*out*[INFO] Debug: stampo position 330*log<
+[8:49.557] Recv: >log*out*[INFO] Debug: img difficulty241*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle42*log*out*[INFO] <
+[8:49.565] Recv: >log*out*[INFO] Debug: type 134*log*out*[INFO] Debug: distance 15030*log*out*[INFO] Debug: cuePos 239*log*out*[INFO] Debug: stampo position 030*log*out*[INFO] Debug: number 037*log*out*[INFO] Debug: img difficulty141*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 130*log*out*[INFO] Debug: number 137*log*out*[INFO] Debug: img difficulty541*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 230*log*out*[INFO] Debug: number 337*log*out*[INFO] Debug: img difficulty341*log*out*[INFO] Debug: effect v -2, p -1, 35*log*out*[INFO] Debug: type obstacle39*log*out*[INFO] Debug: stampo position 330*log*out*[INFO] Debug: number 226*log*out*[INFO] Debug: img 29*log*out*[INFO] Debug: effect 32*log*out*[INFO] Debug: type empty42*log*out*[INFO] Debug: stampo difficoltà 1928*log*out*[INFO] Debug: type 034*log*out*[INFO] Debug: distance 12539*log*out*[INFO] Debug: stampo position 030*log*o...804<
+----------End of file----------

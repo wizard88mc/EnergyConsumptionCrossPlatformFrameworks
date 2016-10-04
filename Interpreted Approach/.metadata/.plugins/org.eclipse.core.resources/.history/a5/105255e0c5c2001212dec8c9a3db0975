@@ -1,0 +1,277 @@
+function ApplicationTabGroup(Window) {
+
+	var count = 0;
+	var startTime;
+	var endTime;
+
+	var db_path = 'accelbench.db';
+	var db = Titanium.Database.open(db_path);
+	var db_fh = Titanium.Filesystem.getFile(db_path);
+	var timerRef;
+	var URL = "testservice.js";
+	var SECS = 3600;
+	var ios_service;
+
+	if (db_fh.exists() == false) {
+		Ti.API.info('No database detected. Creating...');
+		db.execute('CREATE TABLE IF NOT EXISTS "samples" ("x" REAL,"y" REAL,"z" REAL,"action" TEXT, "timestamp" INTEGER)');
+	}
+
+	Ti.API.info('Sqlite db at ' + db_fh.getNativePath);
+
+	var self = Ti.UI.createTabGroup();
+
+	//create app tabs
+	var win1 = new Window('Recording'), win2 = new Window('Count'), win3 = new Window('Battery');
+
+	var lblCount = Ti.UI.createLabel({
+		bottom : 80,
+		font : {
+			fontSize : 14,
+			fontStyle : 'italic'
+		},
+		text : 'Contatore non inizializzato'
+	});
+	win2.add(lblCount);
+
+	// event recording
+	var btnStart = Ti.UI.createButton({
+		title : 'Start listening',
+		width : 200,
+		top : 100,
+		height : 80,
+	});
+	win1.add(btnStart);
+
+	btnStart.addEventListener("click", function() {
+		Ti.API.info('Started event recording');
+		Ti.App.fireEvent('app:startRecordAccelerometer');
+		btnStop.setEnabled(true);
+		btnStart.setEnabled(false);
+	});
+
+	var btnStop = Ti.UI.createButton({
+		title : 'Stop listening',
+		width : 200,
+		height : 80,
+		top : 190,
+		enabled : false
+	});
+
+	btnStop.addEventListener("click", function() {
+		Ti.API.info('Stopped event recording');
+		btnStart.setEnabled(true);
+		btnStop.setEnabled(false);
+		Ti.App.fireEvent('app:stopRecordAccelerometer');
+	});
+	win1.add(btnStop);
+
+	var txtAction = Titanium.UI.createTextField({
+		height : 70,
+		top : 400,
+		width : 300,
+		borderStyle : Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+	});
+	win1.add(txtAction);
+
+	// event counting
+	var btnStartCount = Ti.UI.createButton({
+		title : 'Start counting',
+		width : 200,
+		height : 80,
+		top : 100
+	});
+
+	btnStartCount.addEventListener("click", function() {
+		Ti.API.info("Started event counting");
+		btnStopCount.setEnabled(true);
+		btnStartCount.setEnabled(false);
+		Ti.App.fireEvent('app:startCountAccelerometer');
+	});
+
+	win2.add(btnStartCount);
+
+	var btnStopCount = Ti.UI.createButton({
+		title : 'Stop counting',
+		width : 200,
+		height : 80,
+		enabled : false,
+		top : 190
+	});
+
+	btnStopCount.addEventListener("click", function() {
+		Ti.API.info("Stopped event counting");
+		btnStartCount.setEnabled(true);
+		btnStopCount.setEnabled(false);
+		Ti.App.fireEvent('app:stopCountAccelerometer');
+	});
+	win2.add(btnStopCount);
+
+	// event recording
+	var btnStartBatteryMonitor = Ti.UI.createButton({
+		title : 'Start battery monitoring',
+		width : 200,
+		top : 100,
+		height : 80,
+	});
+	win3.add(btnStartBatteryMonitor);
+
+	btnStartBatteryMonitor.addEventListener("click", function() {
+		Ti.App.fireEvent('app:startBatteryMonitoring');
+		btnStopBatteryMonitor.setEnabled(true);
+		btnStartBatteryMonitor.setEnabled(false);
+	});
+
+	var btnStopBatteryMonitor = Ti.UI.createButton({
+		title : 'Stop battery monitoring',
+		width : 200,
+		height : 80,
+		top : 190,
+		enabled : false
+	});
+
+	btnStopBatteryMonitor.addEventListener("click", function() {
+		Ti.App.fireEvent('app:stopBatteryMonitoring');
+	});
+	win3.add(btnStopBatteryMonitor);
+
+	var tab1 = Ti.UI.createTab({
+		title : 'Record',
+		icon : '/images/KS_nav_ui.png',
+		window : win1
+	});
+
+	var tab2 = Ti.UI.createTab({
+		title : 'Count',
+		icon : '/images/KS_nav_views.png',
+		window : win2
+	});
+
+	var tab3 = Ti.UI.createTab({
+		title : 'Battery',
+		icon : '/images/KS_nav_views.png',
+		window : win3
+	});
+
+	var accelerometerCountCallback = function(e) {
+		count++;
+		lblCount.setText(count + ' samples');
+	};
+
+	var batteryMonitoringCallback = function(e) {
+
+	};
+
+	var accelerometerCalculateStat = function(e) {
+		endTime = new Date();
+		timediff = Math.round((endTime - startTime) / 1000);
+		sampling = Math.round(count / timediff);
+		lblCount.setText(count + ' samples (' + timediff + ' secs, sampling @ ' + sampling + '/sec)');
+	}
+	var accelerometerRecordCallback = function(e) {
+		count++;
+		db.execute('INSERT INTO samples (x,y,z,action,timestamp) VALUES(?,?,?,?,?)', e.x, e.y, e.z, txtAction.getValue().toString(), new Date().getTime());
+		lblCount.setText(count);
+	};
+
+	if (/*Ti.Platform.model === 'Simulator' || */Ti.Platform.model.indexOf('sdk') !== -1) {
+		alert('Accelerometer does not work on a virtual device');
+	} else {
+
+		Ti.App.addEventListener('app:startBatteryMonitoring', function(e) {
+			startTime = new Date();
+			Titanium.API.info('Starting battery monitoring (service ' + URL + ')');
+
+			if (Ti.Platform.osname == 'android') {
+				var intent = Ti.Android.createServiceIntent({
+					url : URL
+				});
+				intent.putExtra('interval', SECS * 1000);
+				intent.putExtra('message', 'Hi from bound service');
+				var service = Ti.Android.createService(intent);
+				service.addEventListener('start', function(e) {
+					Ti.API.info('Starting... Instance #' + e.source.serviceInstanceId + ' (bound)');
+				});
+				service.addEventListener('pause', function(e) {
+					Ti.API.info('Bound instance #' + e.source.serviceInstanceId + ' paused (iteration #' + e.iteration + ')');
+					if (e.iteration == 3) {
+						Ti.API.info('Bound instance #' + e.source.serviceInstanceId + ' has had 3 iterations... going to stop it now.');
+						e.source.stop();
+					}
+				});
+				service.addEventListener('resume', function(e) {
+					Ti.API.info('Bound instance #' + e.source.serviceInstanceId + ' resumed (iteration #' + e.iteration + ')');
+				});
+				service.addEventListener('stop', function(e) {
+					Titanium.API.info('Stopped Android background service');
+				});
+				service.start();
+			} else {// iOS
+				ios_service = Ti.App.iOS.registerBackgroundService({
+					url : URL
+				});
+				Ti.API.info('Started iOS background service');
+				ios_service.addEventListener('stop', function() {
+					Ti.API.info('Stopped iOS background service');
+					Ti.App.fireEvent('app:stopBatteryMonitoring');
+				});
+
+			}
+		});
+
+		Ti.App.addEventListener('app:stopBatteryMonitoring', function(e) {
+			Titanium.API.info('Stopping battery monitoring (service ' + URL + ')');
+			if (Ti.Platform.osname == 'android') {// android service explicitly stopped
+				var intent = Ti.Android.createServiceIntent({
+					url : URL
+				});
+				Ti.Android.stopService(intent);
+				Ti.API.info("Stopped Android background service");
+			}
+			Ti.App.fireEvent('app:stopRecordAccelerometer');
+			btnStartBatteryMonitor.setEnabled(true);
+			btnStopBatteryMonitor.setEnabled(false);
+		});
+
+		// custom event to start counting accelerometer
+		Ti.App.addEventListener('app:startCountAccelerometer', function(e) {
+			startTime = new Date();
+			count = 0;
+			Ti.Accelerometer.addEventListener('update', accelerometerCountCallback);
+		});
+
+		// custom event to stop counting accelerometer
+		Ti.App.addEventListener('app:stopCountAccelerometer', function(e) {
+			Ti.Accelerometer.removeEventListener('update', accelerometerCountCallback);
+			accelerometerCalculateStat();
+		});
+
+		// custom event to start recording accelerometer
+		Ti.App.addEventListener('app:startRecordAccelerometer', function(e) {
+			startTime = new Date();
+			count = 0;
+			db.execute('BEGIN');
+			Titanium.API.info('Starting accelerometer recording');
+			Ti.Accelerometer.addEventListener('update', accelerometerRecordCallback);
+		});
+
+		// custom event to stop recording accelerometer
+		Ti.App.addEventListener('app:stopRecordAccelerometer', function(e) {
+			Titanium.API.info('Stopping accelerometer recording');
+			Ti.Accelerometer.removeEventListener('update', accelerometerRecordCallback);
+			accelerometerCalculateStat();
+			db.execute('COMMIT');
+		});
+
+	}
+
+	win1.containingTab = tab1;
+	win2.containingTab = tab2;
+	win3.containingTab = tab3;
+	self.addTab(tab1);
+	self.addTab(tab2);
+	self.addTab(tab3);
+	return self;
+};
+
+module.exports = ApplicationTabGroup;

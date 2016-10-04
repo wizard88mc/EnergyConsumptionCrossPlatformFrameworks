@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.appcelerator.titanium.mobile.ui.ios.installer.launchConfigurationType">
+<booleanAttribute key="ATTR_MINIFY" value="true"/>
+<stringAttribute key="ATTR_PROJECT_NAME" value="KitchenSink"/>
+<stringAttribute key="ATTR_TITANIUM_DEPLOY_TYPE" value="development"/>
+<stringAttribute key="appid" value="it.cs.unipd.kitchensink"/>
+<stringAttribute key="certificate" value="Matteo Ciman (RK7S4F59K7)"/>
+<stringAttribute key="debug_config" value="::1403692921542:10.22.22.221"/>
+<stringAttribute key="debug_hosts" value="10.22.22.221"/>
+<stringAttribute key="device_id" value="57618c509e680b727ea92e3f27a9aaeae11a11a7"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/KitchenSink"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.capture_output" value="true"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
+<stringAttribute key="process_factory_id" value="com.appcelerator.titanium.ui.logLevelFilteringProcessFactory"/>
+<stringAttribute key="sdk_version" value="8.3"/>
+<stringAttribute key="uuid" value="214937D2-23FE-401A-9B19-FEE061209A99"/>
+</launchConfiguration>

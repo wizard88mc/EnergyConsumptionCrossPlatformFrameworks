@@ -1,0 +1,630 @@
+THelloWorld
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Info.plist /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/HelloWorld.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/HelloWorld.app/ResourceRules.plist
+cCpResource resources build/Release-iphoneos/HelloWorld.app/resources
+cCpResource data_section.bin build/Release-iphoneos/HelloWorld.app/data_section.bin
+cCopyPNGFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon-72.png Icon-72.png
+cCopyPNGFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon.png Icon.png
+cCopyPNGFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon@2x.png Icon@2x.png
+cCopyPNGFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png Default-568h@2x.png
+cProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gdoskjnjyeuppbdqchnbeyxfoteh/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fmoacksnazoxdjgijkjlgzigjkml/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-easbpgiccwehuqazisvigzzlhvmf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncAppDelegate.o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/rebuild.build.o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncViewController.o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/HelloWorld normal armv7
+cGenerateDSYMFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app.dSYM /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/HelloWorld
+cProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision
+cTouch /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent
+cCodeSign /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c0000000053B122E70000000000000094
+t1404117735
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c0000000053B122E70000000000000096
+t1404117735
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053B122E7000000000000036B
+t1404117735
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B122E8000000000000019E
+t1404117736
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000053B122EA0000000000632990
+t1404117738
+s6498704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000053B122E90000000000225DF0
+t1404117737
+s2252272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000053B122EC0000000000CF7800
+t1404117740
+s13596672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053B122EB00000000004D7BC0
+t1404117739
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000053B122EB0000000000152370
+t1404117739
+s1385328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000053B122EC00000000002CB700
+t1404117740
+s2930432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+c0000000053B122EC000000000027C770
+t1404117740
+s2606960
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000053B122EC000000000006DCD0
+t1404117740
+s449744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+c0000000053B122ED0000000000441E80
+t1404117741
+s4464256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053B122EE0000000000A90C10
+t1404117742
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c0000000053B122EE00000000003C0F90
+t1404117742
+s3936144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000053B122EF0000000000ABDE50
+t1404117743
+s11263568
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c0000000053B122EE00000000003D1D20
+t1404117742
+s4005152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000053B122EE0000000000210E90
+t1404117742
+s2166416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000053B122EF00000000000417E0
+t1404117743
+s268256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053B122F00000000000649DB0
+t1404117744
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c0000000053B122F00000000000099D80
+t1404117744
+s630144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000053B122F000000000001A2B00
+t1404117744
+s1714944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053B122F90000000002759920
+t1404117753
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+c0000000053B122ED0000000000127B00
+t1404117741
+s1211136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libsqlite3.dylib
+c0000000053B123050000000000218030
+t1404117765
+s2195504
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+c0000000053E0EB1A0000000000001820
+t1407249178
+s6176
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm
+c0000000053E0EB1A0000000000001205
+t1407249178
+s4613
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/rebuild.build.cpp
+c0000000053E0EB1B0000000000054BBC
+t1407249179
+s347068
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Default-568h@2x.png
+c0000000053E0EB1A00000000000048A2
+t1407249178
+s18594
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/HelloWorld.plist
+c0000000053E0EB1B0000000000000606
+t1407249179
+s1542
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Icon-72.png
+c0000000053E0EB1E000000000000090A
+t1407249182
+s2314
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Icon.png
+c0000000053E0EB1D0000000000000719
+t1407249181
+s1817
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Icon@2x.png
+c0000000053E0EB200000000000000D3E
+t1407249184
+s3390
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/MoSync_Prefix.pch
+c0000000053E0EB1A0000000000000321
+t1407249178
+s801
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent
+t1407249189
+s517
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld.LinkFileList
+c0000000053E0EB2100000000000002DE
+t1407249185
+s734
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncAppDelegate.o
+t1407249186
+s61664
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncViewController.o
+t1407249186
+s41124
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o
+t1407249186
+s4644
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/rebuild.build.o
+t1407249188
+s357948
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app
+t1407249189
+s442
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app.dSYM
+t2
+s0
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png
+t1407249185
+s7014
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/HelloWorld
+t1407249189
+s936148
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon-72.png
+t1407249185
+s2756
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon.png
+t1407249185
+s2027
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon@2x.png
+t1407249185
+s3803
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Info.plist
+t1407249185
+s1264
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/PkgInfo
+t1407249185
+s8
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/ResourceRules.plist
+t1407249185
+s150
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/data_section.bin
+t1407249185
+s9424
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision
+t1407249189
+s7733
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/resources
+t1407249185
+s0
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/data_section.bin
+c0000000053E0EB1B00000000000024D0
+t1407249179
+s9424
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/libs/Release-iphonesimulator/libMoSyncLib.a
+c0000000053E0EB1B00000000005BF368
+t1407249179
+s6026088
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/main.m
+c0000000053E0EB1B00000000000003D7
+t1407249179
+s983
+
+N/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/resources
+c0000000053E0EB1B0000000000000000
+t1407249179
+s0
+
+N/Users/matteo/Library/MobileDevice/Provisioning Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision
+c0000000053ABD3AC0000000000001E35
+t1403769772
+s7733
+
+N/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-easbpgiccwehuqazisvigzzlhvmf/MoSync_Prefix.pch.pch
+t1407249185
+s92976
+
+N/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fmoacksnazoxdjgijkjlgzigjkml/MoSync_Prefix.pch.pch
+t1407249186
+s6217384
+
+N/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gdoskjnjyeuppbdqchnbeyxfoteh/MoSync_Prefix.pch.pch
+t1407249186
+s5298472
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies73a023a12291b941^176675a12291b941^---0#1#1#--18"Check dependencies36"FA9A6F68-9CA8-426D-A0FA-AD6CEA37123D-
+
+CCodeSign /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app
+s428941989.510524
+e428941989.707181
+r1
+xCodeSign
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"CodeSign build/Release-iphoneos/HelloWorld.app46"CodeSign build/Release-iphoneos/HelloWorld.app3acd82a52291b941^670ab5a52291b941^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/0000000000000000^1172"CodeSign build/Release-iphoneos/HelloWorld.app    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Matteo Ciman (RK7S4F59K7)" and provisioning profile "PlayWithEyesNew" (317E7F51-FBCC-40FC-B573-7C60F0DECF20)    /usr/bin/codesign --force --sign 16E07B13A74556031B5B4C44EE94F963BCC289B2 --resource-rules=/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/ResourceRules.plist --entitlements /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app36"81AD9DC7-CB84-491A-AA35-E8A224473CB1-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncAppDelegate.o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428941986.408969
+e428941986.651158
+r1
+xCompileC
+xbuild/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncAppDelegate.o
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.h
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm206"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncAppDelegate.o Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerf5da68a22291b941^5caea6a22291b941^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm0000000000000000^4016"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncAppDelegate.o Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fmoacksnazoxdjgijkjlgzigjkml/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncAppDelegate.d --serialize-diagnostics /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncAppDelegate.dia -c /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm -o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncAppDelegate.o36"DA41CA98-3099-4DD0-8C2B-14685E3DE933-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncViewController.o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428941986.416173
+e428941986.632341
+r1
+xCompileC
+xbuild/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncViewController.o
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm212"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncViewController.o Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerf0c26aa22291b941^cff9a1a22291b941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm0000000000000000^4034"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncViewController.o Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fmoacksnazoxdjgijkjlgzigjkml/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncViewController.d --serialize-diagnostics /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncViewController.dia -c /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm -o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncViewController.o36"8193B80C-130F-46CB-9B58-D21D086B7040-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428941986.408469
+e428941986.474996
+r1
+xCompileC
+xbuild/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/main.m169"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerafb468a22291b941^70b279a22291b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/main.m0000000000000000^3798"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gdoskjnjyeuppbdqchnbeyxfoteh/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.dia -c /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/main.m -o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o36"64BFE053-71EC-4147-AF77-2220ED3E46AA-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/rebuild.build.o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428941986.410062
+e428941988.869962
+r1
+xCompileC
+xbuild/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/rebuild.build.o
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/rebuild.build.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/rebuild.build.cpp
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/mstypeinfo.h
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/helpers/cpp_defs.h
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/helpers/cpp_maapi.h
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/helpers/maapi_defs.h
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/syscall_static_cpp.h
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/converters.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/rebuild.build.cpp189"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/rebuild.build.o Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler0a2b69a22291b941^6fb9dea42291b941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/rebuild.build.cpp0000000000000000^3781"CompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/rebuild.build.o Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-easbpgiccwehuqazisvigzzlhvmf/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/rebuild.build.d --serialize-diagnostics /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/rebuild.build.dia -c /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Classes/rebuild.build.cpp -o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/rebuild.build.o36"D10DE3AF-D2CC-4CC8-A305-093228090D55-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png Default-568h@2x.png
+s428941985.475234
+e428941985.693027
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png
+xDefault-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png Default-568h@2x.png89"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png Default-568h@2x.png9e087aa12291b941^2aabb1a12291b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Default-568h@2x.png0000000000000000^741"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png Default-568h@2x.png    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Default-568h@2x.png /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Default-568h@2x.png36"91FD73AD-1414-4FBA-97DE-FA67E7D48A78-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon-72.png Icon-72.png
+s428941985.472353
+e428941985.620247
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon-72.png
+xIcon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Icon-72.png Icon-72.png73"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Icon-72.png Icon-72.png9f2079a12291b941^06d59ea12291b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Icon-72.png0000000000000000^709"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Icon-72.png Icon-72.png    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Icon-72.png /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon-72.png36"C2279EC2-1C0E-4A63-BF78-12E7305899A5-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon.png Icon.png
+s428941985.473436
+e428941985.622077
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon.png
+xIcon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Icon.png Icon.png67"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Icon.png Icon.png9d4b79a12291b941^d3509fa12291b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Icon.png0000000000000000^697"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Icon.png Icon.png    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Icon.png /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon.png36"3623114C-E439-4CDB-86EE-FF9DBF5479F7-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon@2x.png Icon@2x.png
+s428941985.474248
+e428941985.634069
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon@2x.png
+xIcon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Icon@2x.png Icon@2x.png73"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Icon@2x.png Icon@2x.pngff9579a12291b941^a454a2a12291b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Icon@2x.png0000000000000000^709"CopyPNGFile build/Release-iphoneos/HelloWorld.app/Icon@2x.png Icon@2x.png    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/Icon@2x.png /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Icon@2x.png36"60D69AEB-56B5-4E8C-9718-846DB33AAC9B-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/HelloWorld.app/ResourceRules.plist
+s428941985.468336
+e428941985.471184
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/HelloWorld.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release-iphoneos/HelloWorld.app/ResourceRules.plist190"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/HelloWorld.app/ResourceRules.plist430478a12291b941^34a278a12291b941^---0#0#1#-19%DVTDocumentLocation2@153"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/ResourceRules.plist00341ce0dfffdf42^962"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/HelloWorld.app/ResourceRules.plist    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app36"BD32D33D-A61E-4118-B92C-D8C7D741D899-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CCpResource data_section.bin build/Release-iphoneos/HelloWorld.app/data_section.bin
+s428941985.472097
+e428941985.474635
+r1
+xCpResource
+xdata_section.bin
+xbuild/Release-iphoneos/HelloWorld.app/data_section.bin
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Release-iphoneos/HelloWorld.app/data_section.bin82"CpResource data_section.bin build/Release-iphoneos/HelloWorld.app/data_section.bin01f778a12291b941^25b079a12291b941^---0#0#1#-19%DVTDocumentLocation2@150"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/data_section.bin00341ce0dfffdf42^838"CpResource data_section.bin build/Release-iphoneos/HelloWorld.app/data_section.bin    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/data_section.bin /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app36"78C1CE75-3E70-4F6F-AF97-0786A032168E-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CCpResource resources build/Release-iphoneos/HelloWorld.app/resources
+s428941985.471831
+e428941985.474014
+r1
+xCpResource
+xresources
+xbuild/Release-iphoneos/HelloWorld.app/resources
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Release-iphoneos/HelloWorld.app/resources68"CpResource resources build/Release-iphoneos/HelloWorld.app/resourcesa0e278a12291b941^058979a12291b941^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/resources00341ce0dfffdf42^817"CpResource resources build/Release-iphoneos/HelloWorld.app/resources    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/resources /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app36"7921F4E2-FF77-4A11-ABED-B6FA96D0FCC3-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CGenerateDSYMFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app.dSYM /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/HelloWorld
+s428941989.165877
+e428941989.505253
+r1
+xGenerateDSYMFile
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app.dSYM
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/HelloWorld
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Generate /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app.dSYM108"GenerateDSYMFile build/Release-iphoneos/HelloWorld.app.dSYM build/Release-iphoneos/HelloWorld.app/HelloWorld8f8b2aa52291b941^705d81a52291b941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app.dSYM00341ce0dfffdf42^766"GenerateDSYMFile build/Release-iphoneos/HelloWorld.app.dSYM build/Release-iphoneos/HelloWorld.app/HelloWorld    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/HelloWorld -o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app.dSYM36"C274BB68-E9C9-4781-9A50-7B2CC647DC05-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CLd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/HelloWorld normal armv7
+s428941988.872153
+e428941989.164374
+r1
+xLd
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/HelloWorld
+xnormal
+xarmv7
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/main.o
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncAppDelegate.o
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/rebuild.build.o
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/MoSyncViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/libs/Release-iphoneos/libMoSyncLib.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libsqlite3.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libstdc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Link /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/HelloWorld64"Ld build/Release-iphoneos/HelloWorld.app/HelloWorld normal armv7185cdfa42291b941^a9152aa52291b941^---0#0#1#--2125"Ld build/Release-iphoneos/HelloWorld.app/HelloWorld normal armv7    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos -Llibs/Release-iphoneos -L/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/libs/Release-iphonesimulator -F/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos -filelist /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld.LinkFileList -dead_strip -ObjC -fobjc-link-runtime -miphoneos-version-min=5.0 -framework CoreVideo -framework StoreKit -framework CoreMedia -weak_framework MobileCoreServices -weak_framework iAd -framework MediaPlayer -weak_framework EventKit -weak_framework CoreMotion -framework AddressBook -weak_framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -weak_framework AVFoundation -framework CoreLocation -lMoSyncLib -framework OpenGLES -framework QuartzCore -weak_framework MessageUI -lsqlite3 -framework SystemConfiguration -framework MapKit -Xlinker -dependency_info -Xlinker /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorld_dependency_info.dat -o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/HelloWorld36"1A62CC13-0104-4E91-9ABA-7C02DE1447AE-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CProcessInfoPlistFile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Info.plist /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/HelloWorld.plist
+s428941985.463531
+e428941985.467557
+r1
+xProcessInfoPlistFile
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Info.plist
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/HelloWorld.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Process /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/HelloWorld.plist86"ProcessInfoPlistFile build/Release-iphoneos/HelloWorld.app/Info.plist HelloWorld.plist30d776a12291b941^14b277a12291b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/HelloWorld.plist0000000000000000^1015"ProcessInfoPlistFile build/Release-iphoneos/HelloWorld.app/Info.plist HelloWorld.plist    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/HelloWorld.plist -genpkginfo /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/ResourceRules.plist -o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/Info.plist36"E80C6EDD-50E1-47E2-AA7B-91AFD68CDAE8-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gdoskjnjyeuppbdqchnbeyxfoteh/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428941985.694828
+e428941986.377584
+r1
+xProcessPCH
+x/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gdoskjnjyeuppbdqchnbeyxfoteh/MoSync_Prefix.pch.pch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/MoSync_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pch280"ProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gdoskjnjyeuppbdqchnbeyxfoteh/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler7c0cb2a12291b941^b1a860a22291b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^3762"ProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gdoskjnjyeuppbdqchnbeyxfoteh/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos --serialize-diagnostics /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gdoskjnjyeuppbdqchnbeyxfoteh/MoSync_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gdoskjnjyeuppbdqchnbeyxfoteh/MoSync_Prefix.pch.d -c /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-gdoskjnjyeuppbdqchnbeyxfoteh/MoSync_Prefix.pch.pch36"7872D9DF-B2DB-4D9C-8DCA-CFCB9F84896D-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-easbpgiccwehuqazisvigzzlhvmf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428941985.696089
+e428941985.730432
+r1
+xProcessPCH++
+x/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-easbpgiccwehuqazisvigzzlhvmf/MoSync_Prefix.pch.pch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/MoSync_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pch274"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-easbpgiccwehuqazisvigzzlhvmf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler1e54b2a12291b941^29e8baa12291b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^3673"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-easbpgiccwehuqazisvigzzlhvmf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos --serialize-diagnostics /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-easbpgiccwehuqazisvigzzlhvmf/MoSync_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-easbpgiccwehuqazisvigzzlhvmf/MoSync_Prefix.pch.d -c /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-easbpgiccwehuqazisvigzzlhvmf/MoSync_Prefix.pch.pch36"DFC76DC8-649B-4001-8E67-C1385E0CF89C-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fmoacksnazoxdjgijkjlgzigjkml/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428941985.695430
+e428941986.407408
+r1
+xProcessPCH++
+x/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fmoacksnazoxdjgijkjlgzigjkml/MoSync_Prefix.pch.pch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/MoSync_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pch284"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fmoacksnazoxdjgijkjlgzigjkml/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerf88ab2a12291b941^b54e68a22291b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^3886"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fmoacksnazoxdjgijkjlgzigjkml/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/DerivedSources -F/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos --serialize-diagnostics /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fmoacksnazoxdjgijkjlgzigjkml/MoSync_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fmoacksnazoxdjgijkjlgzigjkml/MoSync_Prefix.pch.d -c /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fmoacksnazoxdjgijkjlgzigjkml/MoSync_Prefix.pch.pch36"DF7C4801-2EB5-4D35-A7DF-C60B159D746B-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent
+s428941989.508260
+e428941989.509977
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection218"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent218"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent732d82a52291b941^a48e82a52291b941^---0#0#1#-19%DVTDocumentLocation2@169"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent00341ce0dfffdf42^852"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent36"D10081F5-E877-44C4-827E-6673814FB5AE-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision
+s428941989.506020
+e428941989.507191
+r1
+xProcessProductPackaging
+x/Users/matteo/Library/MobileDevice/Provisioning Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision
+x/Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection197"ProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision197"ProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision029d81a52291b941^fed781a52291b941^---0#0#1#-19%DVTDocumentLocation2@158"file:///Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision00341ce0dfffdf42^784"ProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision    cd /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/317E7F51-FBCC-40FC-B573-7C60F0DECF20.mobileprovision -o /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app/embedded.mobileprovision36"B30084CE-868C-40EF-9AA9-A961C73F9B14-
+b272A5A62-CA5F-4082-97DF-DD1D5D9A2378
+
+CTouch /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app
+r0
+

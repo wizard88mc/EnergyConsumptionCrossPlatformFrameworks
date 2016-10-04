@@ -1,0 +1,11 @@
+ \
+ /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/helloworld.s:  \
+ /Users/matteo/Developer/MoSync/HelloWorld/helloworld.cpp \
+  /Applications/MoSync/include/MAUtil/Moblet.h \
+  /Applications/MoSync/include/ma.h /Applications/MoSync/include/maapi.h \
+  /Applications/MoSync/include/maapi_defs.h \
+  /Applications/MoSync/include/maassert.h \
+  /Applications/MoSync/include/ma.h \
+  /Applications/MoSync/include/MAUtil/Environment.h \
+  /Applications/MoSync/include/MAUtil/Vector.h \
+  /Applications/MoSync/include/MAUtil/ListenerSet.h

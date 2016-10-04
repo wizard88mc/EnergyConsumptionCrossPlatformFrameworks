@@ -1,0 +1,630 @@
+TCompassHTML5
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Info.plist /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CompassHTML5.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/CompassHTML5.app/ResourceRules.plist
+cCpResource resources build/Release-iphoneos/CompassHTML5.app/resources
+cCpResource data_section.bin build/Release-iphoneos/CompassHTML5.app/data_section.bin
+cCopyPNGFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon-72.png Icon-72.png
+cCopyPNGFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon.png Icon.png
+cCopyPNGFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon@2x.png Icon@2x.png
+cCopyPNGFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Default-568h@2x.png Default-568h@2x.png
+cProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fiwnycnpbhalbeasulnrgbgdajkf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-cfcpoqotlbqheheyugooluievivb/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-daeiqaokmljuejaakkgkxxvvwvcf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/main.o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/rebuild.build.o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncViewController.o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/CompassHTML5 normal armv7
+cGenerateDSYMFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app.dSYM /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/CompassHTML5
+cProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/59D0BEC9-47D7-447E-992B-DF19BD7C553D.mobileprovision /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/embedded.mobileprovision
+cTouch /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5.xcent
+cCodeSign /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c0000000053B122E70000000000000094
+t1404117735
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c0000000053B122E70000000000000096
+t1404117735
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053B122E7000000000000036B
+t1404117735
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B122E8000000000000019E
+t1404117736
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000053B122EA0000000000632990
+t1404117738
+s6498704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000053B122E90000000000225DF0
+t1404117737
+s2252272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000053B122EC0000000000CF7800
+t1404117740
+s13596672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053B122EB00000000004D7BC0
+t1404117739
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000053B122EB0000000000152370
+t1404117739
+s1385328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000053B122EC00000000002CB700
+t1404117740
+s2930432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+c0000000053B122EC000000000027C770
+t1404117740
+s2606960
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000053B122EC000000000006DCD0
+t1404117740
+s449744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+c0000000053B122ED0000000000441E80
+t1404117741
+s4464256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053B122EE0000000000A90C10
+t1404117742
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c0000000053B122EE00000000003C0F90
+t1404117742
+s3936144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000053B122EF0000000000ABDE50
+t1404117743
+s11263568
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c0000000053B122EE00000000003D1D20
+t1404117742
+s4005152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000053B122EE0000000000210E90
+t1404117742
+s2166416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000053B122EF00000000000417E0
+t1404117743
+s268256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053B122F00000000000649DB0
+t1404117744
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c0000000053B122F00000000000099D80
+t1404117744
+s630144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000053B122F000000000001A2B00
+t1404117744
+s1714944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053B122F90000000002759920
+t1404117753
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+c0000000053B122ED0000000000127B00
+t1404117741
+s1211136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libsqlite3.dylib
+c0000000053B123050000000000218030
+t1404117765
+s2195504
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+c0000000053DF573F0000000000001820
+t1407145791
+s6176
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm
+c0000000053DF573F0000000000001205
+t1407145791
+s4613
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp
+c0000000053DF574000000000001CE25B
+t1407145792
+s1892955
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CompassHTML5.plist
+c0000000053DF5740000000000000060C
+t1407145792
+s1548
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Default-568h@2x.png
+c0000000053DF573F00000000000048A2
+t1407145791
+s18594
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon-72.png
+c0000000053DF5743000000000000090A
+t1407145795
+s2314
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon.png
+c0000000053DF57420000000000000719
+t1407145794
+s1817
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon@2x.png
+c0000000053DF57440000000000000D3E
+t1407145796
+s3390
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch
+c0000000053DF573F0000000000000321
+t1407145791
+s801
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5.xcent
+t1407145825
+s521
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/CompassHTML5.LinkFileList
+c0000000053DF574600000000000002EE
+t1407145798
+s750
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o
+t1407145799
+s61664
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncViewController.o
+t1407145799
+s41124
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/main.o
+t1407145799
+s4644
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/rebuild.build.o
+t1407145824
+s2169316
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app
+t1407145825
+s442
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app.dSYM
+t2
+s0
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/CompassHTML5
+t1407145825
+s1187204
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Default-568h@2x.png
+t1407145798
+s7014
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon-72.png
+t1407145798
+s2756
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon.png
+t1407145798
+s2027
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon@2x.png
+t1407145798
+s3803
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Info.plist
+t1407145798
+s1272
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/PkgInfo
+t1407145798
+s8
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/ResourceRules.plist
+t1407145798
+s150
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/data_section.bin
+t1407145798
+s36584
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/embedded.mobileprovision
+t1407145825
+s7658
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/resources
+t1407145798
+s377214
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/data_section.bin
+c0000000053DF57400000000000008EE8
+t1407145792
+s36584
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/libs/Release-iphonesimulator/libMoSyncLib.a
+c0000000053DF574000000000005BF368
+t1407145792
+s6026088
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m
+c0000000053DF574000000000000003D7
+t1407145792
+s983
+
+N/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/resources
+c0000000053DF5740000000000005C17E
+t1407145792
+s377214
+
+N/Users/matteo/Library/MobileDevice/Provisioning Profiles/59D0BEC9-47D7-447E-992B-DF19BD7C553D.mobileprovision
+c0000000053DF52EE0000000000001DEA
+t1407144686
+s7658
+
+N/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-cfcpoqotlbqheheyugooluievivb/MoSync_Prefix.pch.pch
+t1407145799
+s6217404
+
+N/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-daeiqaokmljuejaakkgkxxvvwvcf/MoSync_Prefix.pch.pch
+t1407145798
+s93048
+
+N/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fiwnycnpbhalbeasulnrgbgdajkf/MoSync_Prefix.pch.pch
+t1407145798
+s5298536
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0f99f6c58e8fb941^f73a31c68e8fb941^---0#1#1#--18"Check dependencies36"2F02CC4A-D815-4936-8E1D-3CF1EA951B0F-
+
+CCodeSign /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app
+s428838625.493922
+e428838625.886697
+r1
+xCodeSign
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"CodeSign build/Release-iphoneos/CompassHTML5.app48"CodeSign build/Release-iphoneos/CompassHTML5.app00ac7ee18e8fb941^0400e3e18e8fb941^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/0000000000000000^1189"CodeSign build/Release-iphoneos/CompassHTML5.app    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Matteo Ciman (RK7S4F59K7)" and provisioning profile "Compass HTML5 MoSync" (59D0BEC9-47D7-447E-992B-DF19BD7C553D)    /usr/bin/codesign --force --sign 16E07B13A74556031B5B4C44EE94F963BCC289B2 --resource-rules=/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/ResourceRules.plist --entitlements /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5.xcent /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app36"5A3FCD4C-C463-4E1D-AE63-0205A50D7AFD-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CCompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428838599.091027
+e428838599.331911
+r1
+xCompileC
+xbuild/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.h
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm210"CompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compilere27317c78e8fb941^e8f854c78e8fb941^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm0000000000000000^4064"CompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o Classes/MoSyncAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-cfcpoqotlbqheheyugooluievivb/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.d --serialize-diagnostics /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.dia -c /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncAppDelegate.mm -o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o36"80AF8580-2244-4AA5-93B2-6B2CDD276362-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CCompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncViewController.o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428838599.092354
+e428838599.323388
+r1
+xCompileC
+xbuild/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncViewController.o
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm216"CompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncViewController.o Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler79c917c78e8fb941^a0e052c78e8fb941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm0000000000000000^4082"CompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncViewController.o Classes/MoSyncViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-cfcpoqotlbqheheyugooluievivb/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncViewController.d --serialize-diagnostics /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncViewController.dia -c /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/MoSyncViewController.mm -o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncViewController.o36"06C5C0FB-3E3D-46CC-BE52-A230445C07EC-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CCompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/main.o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428838599.090576
+e428838599.139186
+r1
+xCompileC
+xbuild/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/main.o
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m173"CompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler234a17c78e8fb941^e8bb23c78e8fb941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m0000000000000000^3846"CompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fiwnycnpbhalbeasulnrgbgdajkf/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/main.dia -c /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/main.m -o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/main.o36"EB94F48E-893E-4884-9645-6DD526DD7F9A-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CCompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/rebuild.build.o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428838599.091440
+e428838624.662351
+r1
+xCompileC
+xbuild/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/rebuild.build.o
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/mstypeinfo.h
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/helpers/cpp_defs.h
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/helpers/cpp_maapi.h
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/helpers/maapi_defs.h
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/syscall_static_cpp.h
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/converters.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp193"CompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/rebuild.build.o Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler3ba917c78e8fb941^7193a9e08e8fb941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp0000000000000000^3829"CompileC build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/rebuild.build.o Classes/rebuild.build.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -include /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-daeiqaokmljuejaakkgkxxvvwvcf/MoSync_Prefix.pch -MMD -MT dependencies -MF /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/rebuild.build.d --serialize-diagnostics /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/rebuild.build.dia -c /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Classes/rebuild.build.cpp -o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/rebuild.build.o36"30DF4214-DEBA-402B-97F7-2B994F3F8DB7-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Default-568h@2x.png Default-568h@2x.png
+s428838598.213024
+e428838598.432590
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Default-568h@2x.png
+xDefault-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Default-568h@2x.png Default-568h@2x.png91"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Default-568h@2x.png Default-568h@2x.pngdd0837c68e8fb941^01c36ec68e8fb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Default-568h@2x.png0000000000000000^745"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Default-568h@2x.png Default-568h@2x.png    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Default-568h@2x.png /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Default-568h@2x.png36"08EA5CA9-E806-4EE6-9A61-87C281CE0238-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon-72.png Icon-72.png
+s428838598.208890
+e428838598.361915
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon-72.png
+xIcon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Icon-72.png Icon-72.png75"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Icon-72.png Icon-72.png31ef35c68e8fb941^a6b55dc68e8fb941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon-72.png0000000000000000^713"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Icon-72.png Icon-72.png    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon-72.png /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon-72.png36"6C2D64BF-B405-4E1D-BE75-BFD1A550FF93-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon.png Icon.png
+s428838598.210706
+e428838598.365452
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon.png
+xIcon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Icon.png Icon.png69"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Icon.png Icon.pngd19336c68e8fb941^1ec55dc68e8fb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon.png0000000000000000^701"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Icon.png Icon.png    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon.png /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon.png36"3CC8D60E-24F5-4609-8E04-19AC9C6C153F-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CCopyPNGFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon@2x.png Icon@2x.png
+s428838598.211541
+e428838598.376027
+r1
+xCopyPNGFile
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon@2x.png
+xIcon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Icon@2x.png Icon@2x.png75"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Icon@2x.png Icon@2x.png9e4236c68e8fb941^184460c68e8fb941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon@2x.png0000000000000000^713"CopyPNGFile build/Release-iphoneos/CompassHTML5.app/Icon@2x.png Icon@2x.png    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/Icon@2x.png /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Icon@2x.png36"0DD46424-3B09-4364-80CD-4EAE05C76B10-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/CompassHTML5.app/ResourceRules.plist
+s428838598.203019
+e428838598.204598
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/CompassHTML5.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release-iphoneos/CompassHTML5.app/ResourceRules.plist192"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/CompassHTML5.app/ResourceRules.plist931834c68e8fb941^416134c68e8fb941^---0#0#1#-19%DVTDocumentLocation2@155"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/ResourceRules.plist00341ce0dfffdf42^966"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/CompassHTML5.app/ResourceRules.plist    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app36"CF9E365A-240B-4F7F-A51C-378A9AD330F0-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CCpResource data_section.bin build/Release-iphoneos/CompassHTML5.app/data_section.bin
+s428838598.205582
+e428838598.207149
+r1
+xCpResource
+xdata_section.bin
+xbuild/Release-iphoneos/CompassHTML5.app/data_section.bin
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Release-iphoneos/CompassHTML5.app/data_section.bin84"CpResource data_section.bin build/Release-iphoneos/CompassHTML5.app/data_section.bind8b634c68e8fb941^10b135c68e8fb941^---0#0#1#-19%DVTDocumentLocation2@152"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/data_section.bin00341ce0dfffdf42^842"CpResource data_section.bin build/Release-iphoneos/CompassHTML5.app/data_section.bin    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/data_section.bin /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app36"18B85F8B-74DF-47A2-A32C-81378E64A1BB-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CCpResource resources build/Release-iphoneos/CompassHTML5.app/resources
+s428838598.205325
+e428838598.210414
+r1
+xCpResource
+xresources
+xbuild/Release-iphoneos/CompassHTML5.app/resources
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Release-iphoneos/CompassHTML5.app/resources70"CpResource resources build/Release-iphoneos/CompassHTML5.app/resources71ab34c68e8fb941^a1ba35c68e8fb941^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/resources00341ce0dfffdf42^821"CpResource resources build/Release-iphoneos/CompassHTML5.app/resources    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/resources /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app36"6ADEDEDA-E63C-4B0B-84B6-B7EF40128228-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CGenerateDSYMFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app.dSYM /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/CompassHTML5
+s428838625.088706
+e428838625.486405
+r1
+xGenerateDSYMFile
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app.dSYM
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/CompassHTML5
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Generate /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app.dSYM114"GenerateDSYMFile build/Release-iphoneos/CompassHTML5.app.dSYM build/Release-iphoneos/CompassHTML5.app/CompassHTML52ec816e18e8fb941^9c867ce18e8fb941^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app.dSYM00341ce0dfffdf42^778"GenerateDSYMFile build/Release-iphoneos/CompassHTML5.app.dSYM build/Release-iphoneos/CompassHTML5.app/CompassHTML5    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/CompassHTML5 -o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app.dSYM36"2F744A90-6F16-4C6D-BC7F-9B4E14202CF0-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CLd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/CompassHTML5 normal armv7
+s428838624.663897
+e428838625.087671
+r1
+xLd
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/CompassHTML5
+xnormal
+xarmv7
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/CompassHTML5.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/main.o
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncAppDelegate.o
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/rebuild.build.o
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/MoSyncViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/libs/Release-iphoneos/libMoSyncLib.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libsqlite3.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libstdc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Link /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/CompassHTML568"Ld build/Release-iphoneos/CompassHTML5.app/CompassHTML5 normal armv78d0caae08e8fb941^227216e18e8fb941^---0#0#1#--2145"Ld build/Release-iphoneos/CompassHTML5.app/CompassHTML5 normal armv7    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -Llibs/Release-iphoneos -L/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/libs/Release-iphonesimulator -F/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos -filelist /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/CompassHTML5.LinkFileList -dead_strip -ObjC -fobjc-link-runtime -miphoneos-version-min=5.0 -framework CoreVideo -framework StoreKit -framework CoreMedia -weak_framework MobileCoreServices -weak_framework iAd -framework MediaPlayer -weak_framework EventKit -weak_framework CoreMotion -framework AddressBook -weak_framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -weak_framework AVFoundation -framework CoreLocation -lMoSyncLib -framework OpenGLES -framework QuartzCore -weak_framework MessageUI -lsqlite3 -framework SystemConfiguration -framework MapKit -Xlinker -dependency_info -Xlinker /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/Objects-normal/armv7/CompassHTML5_dependency_info.dat -o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/CompassHTML536"1AF463D3-37CC-41BC-8E60-A1B3E8F4CE32-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CProcessInfoPlistFile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Info.plist /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CompassHTML5.plist
+s428838598.196785
+e428838598.200704
+r1
+xProcessInfoPlistFile
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Info.plist
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CompassHTML5.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Process /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CompassHTML5.plist90"ProcessInfoPlistFile build/Release-iphoneos/CompassHTML5.app/Info.plist CompassHTML5.plist988932c68e8fb941^b29d33c68e8fb941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CompassHTML5.plist0000000000000000^1027"ProcessInfoPlistFile build/Release-iphoneos/CompassHTML5.app/Info.plist CompassHTML5.plist    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/CompassHTML5.plist -genpkginfo /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/ResourceRules.plist -o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/Info.plist36"2B1990D9-C7F8-4B3E-92DF-D44DE8176A95-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fiwnycnpbhalbeasulnrgbgdajkf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428838598.433798
+e428838599.005033
+r1
+xProcessPCH
+x/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fiwnycnpbhalbeasulnrgbgdajkf/MoSync_Prefix.pch.pch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pch280"ProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fiwnycnpbhalbeasulnrgbgdajkf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler63286fc68e8fb941^414901c78e8fb941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^3794"ProcessPCH /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fiwnycnpbhalbeasulnrgbgdajkf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos --serialize-diagnostics /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fiwnycnpbhalbeasulnrgbgdajkf/MoSync_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fiwnycnpbhalbeasulnrgbgdajkf/MoSync_Prefix.pch.d -c /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-fiwnycnpbhalbeasulnrgbgdajkf/MoSync_Prefix.pch.pch36"5BE6CF13-2EFE-4879-9674-A867F5C9C002-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-cfcpoqotlbqheheyugooluievivb/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428838598.434140
+e428838599.089527
+r1
+xProcessPCH++
+x/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-cfcpoqotlbqheheyugooluievivb/MoSync_Prefix.pch.pch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pch284"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-cfcpoqotlbqheheyugooluievivb/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerf1496fc68e8fb941^2deb16c78e8fb941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^3918"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-cfcpoqotlbqheheyugooluievivb/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos --serialize-diagnostics /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-cfcpoqotlbqheheyugooluievivb/MoSync_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-cfcpoqotlbqheheyugooluievivb/MoSync_Prefix.pch.d -c /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-cfcpoqotlbqheheyugooluievivb/MoSync_Prefix.pch.pch36"1768BFFA-2EEC-4655-8F52-DEA5F7D3123B-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-daeiqaokmljuejaakkgkxxvvwvcf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428838598.434627
+e428838598.457119
+r1
+xProcessPCH++
+x/var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-daeiqaokmljuejaakkgkxxvvwvcf/MoSync_Prefix.pch.pch
+xMoSync_Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile MoSync_Prefix.pch274"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-daeiqaokmljuejaakkgkxxvvwvcf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler6d6f6fc68e8fb941^850775c68e8fb941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch0000000000000000^3705"ProcessPCH++ /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-daeiqaokmljuejaakkgkxxvvwvcf/MoSync_Prefix.pch.pch MoSync_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -D_USE_REBUILDER_ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-generated-files.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-own-target-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-all-target-headers.hmap -iquote /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5-project-headers.hmap -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/include -IClasses -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources/armv7 -I/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/DerivedSources -F/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos --serialize-diagnostics /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-daeiqaokmljuejaakkgkxxvvwvcf/MoSync_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-daeiqaokmljuejaakkgkxxvvwvcf/MoSync_Prefix.pch.d -c /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/MoSync_Prefix.pch -o /var/folders/bp/srr2dkyn2b18vvt9_n6rc46r0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MoSync_Prefix-daeiqaokmljuejaakkgkxxvvwvcf/MoSync_Prefix.pch.pch36"6B6CE811-561F-402D-91BF-BD9C63078AFC-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5.xcent
+s428838625.491248
+e428838625.493429
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection224"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5.xcent224"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5.xcentbadb7de18e8fb941^26527ee18e8fb941^---0#0#1#-19%DVTDocumentLocation2@175"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5.xcent00341ce0dfffdf42^864"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5.xcent    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/CompassHTML5.build/Release-iphoneos/CompassHTML5.build/CompassHTML5.xcent36"FBE552EE-3338-422D-959D-C211B9506149-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/59D0BEC9-47D7-447E-992B-DF19BD7C553D.mobileprovision /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/embedded.mobileprovision
+s428838625.486993
+e428838625.489990
+r1
+xProcessProductPackaging
+x/Users/matteo/Library/MobileDevice/Provisioning Profiles/59D0BEC9-47D7-447E-992B-DF19BD7C553D.mobileprovision
+x/Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection199"ProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/59D0BEC9-47D7-447E-992B-DF19BD7C553D.mobileprovision build/Release-iphoneos/CompassHTML5.app/embedded.mobileprovision199"ProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/59D0BEC9-47D7-447E-992B-DF19BD7C553D.mobileprovision build/Release-iphoneos/CompassHTML5.app/embedded.mobileprovision62be7ce18e8fb941^4c717de18e8fb941^---0#0#1#-19%DVTDocumentLocation2@160"file:///Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/embedded.mobileprovision00341ce0dfffdf42^788"ProcessProductPackaging /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/59D0BEC9-47D7-447E-992B-DF19BD7C553D.mobileprovision build/Release-iphoneos/CompassHTML5.app/embedded.mobileprovision    cd /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/matteo/Library/MobileDevice/Provisioning\ Profiles/59D0BEC9-47D7-447E-992B-DF19BD7C553D.mobileprovision -o /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app/embedded.mobileprovision36"A69102BF-5183-41EA-BC59-A37BED3DC5DC-
+bBBB0C39D-A746-4F34-A810-527E64E7AE21
+
+CTouch /Users/matteo/Developer/MoSync/CompassHTML5/Output/Release/iOS/iPhone/package/xcode-proj/build/Release-iphoneos/CompassHTML5.app
+r0
+

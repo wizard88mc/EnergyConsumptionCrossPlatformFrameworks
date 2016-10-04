@@ -1,0 +1,41 @@
+rebuild-needed = false
+variant = Apple/iPhone Release 
+success = true
+timestamp = 1407249175234
+output-main = /Users/matteo/Developer/MoSync/HelloWorld/Output/Release/Apple/iPhone/package/xcode-proj/build/Release-iphoneos/HelloWorld.app
+
+[files]
+.settings/org.eclipse.core.resources.prefs = 1403212789000
+.mosyncproject.local = 1407248880000
+.mosyncproject = 1407248880000
+workfile.rb = 1403212789000
+.cproject = 1403212789000
+.project = 1403212789000
+helloworld.cpp = 1407249163000
+
+[dependencies]
+/HelloWorld/Output/Release/Apple/iPhone/helloworld.s = /HelloWorld/Applications/MoSync/include/MAUtil/Environment.h, /HelloWorld/Applications/MoSync/include/MAUtil/Moblet.h, /HelloWorld/Applications/MoSync/include/ma.h, /HelloWorld/Applications/MoSync/include/MAUtil/ListenerSet.h, /HelloWorld/Applications/MoSync/include/maassert.h, /HelloWorld/Applications/MoSync/include/maapi.h, /HelloWorld/Applications/MoSync/include/maapi_defs.h, /HelloWorld/Applications/MoSync/include/MAUtil/Vector.h, /HelloWorld/helloworld.cpp
+/HelloWorld/helloworld.cpp = /HelloWorld/Output/Release/Apple/iPhone/helloworld.s
+
+[build-properties]
+build.prefs:additional.include.paths/Release = %mosync-home%/include
+build.prefs:ignore.default.library.paths/Release = true
+template.id = project.cpp
+build.prefs:additional.include.paths/Debug = %mosync-home%/include
+build.prefs:additional.libraries = mastd.lib, MAUtil.lib
+build.prefs:ignore.default.libraries/Debug = true
+build.prefs:additional.library.paths/Release = %mosync-home%/lib/pipe
+build.prefs:additional.library.paths = %mosync-home%/lib/pipe
+build.prefs:ignore.default.libraries/Release = true
+build.prefs:ignore.default.library.paths/Debug = true
+build.prefs:ignore.default.include.paths/Debug = true
+build.prefs:additional.include.paths = %mosync-home%/include
+build.prefs:ignore.default.library.paths = true
+build.prefs:additional.libraries/Debug = mastdD.lib, MAUtilD.lib
+build.prefs:ignore.default.include.paths = true
+build.prefs:ignore.default.libraries = true
+build.prefs:additional.library.paths/Debug = %mosync-home%/lib/pipe
+build.prefs:ignore.default.include.paths/Release = true
+build.prefs:additional.libraries/Release = mastd.lib, MAUtil.lib
+build.prefs:app.permissions = File\\ Storage Internet\\ Access Vibration
+
